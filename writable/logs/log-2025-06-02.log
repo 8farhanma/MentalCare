@@ -1,0 +1,452 @@
+ERROR - 2025-06-02 01:29:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'mentalcare', 3306, '', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Controllers\Home.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp-pa\htdocs\MentalCare\app\Controllers\Home.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#7 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#11 {main}
+CRITICAL - 2025-06-02 01:29:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_faq`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-02 01:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 03:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-02 04:21:47 --> Selected Gejala: Array
+(
+    [0] => 1
+    [1] => 2
+)
+
+DEBUG - 2025-06-02 04:21:47 --> List CF: Array
+(
+    [0] => 2
+    [1] => 3
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Merged Data CF: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 2
+            [tingkat_kepercayaan] => Mungkin
+            [cf_user] => 0.4
+        )
+
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Checking relation for gejala 1: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 1
+            [id_penyakit] => 1
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 7
+            [id_penyakit] => 3
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 17
+            [id_penyakit] => 5
+            [id_gejala] => 1
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 1
+    [kode_penyakit] => P01
+    [nama_penyakit] => Mild Major Depressive Disorder (Ringan)
+    [deskripsi_penyakit] => Mild Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang lebih ringan dibandingkan dengan tingkat yang lebih
+                parah. Pada tingkat ini, gejala depresi biasanya memengaruhi kehidupan
+                sehari-hari, namun individu masih dapat menjalani aktivitas sehari-hari
+                dengan tingkat fungsionalitas yang relatif normal.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Major Depressive Disorder melibatkan kombinasi terapi kognitif perilaku (CBT), terapi dukungan, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengubah pola pikir negatif menjadi pola pikir yang lebih adaptif dan positif. Terapi dukungan, seperti terapi interpersonal atau kelompok dukungan, dapat memberikan wadah untuk berbagi pengalaman dan mendapatkan dukungan emosional dari orang-orang terdekat. Selain itu, menjaga pola tidur yang teratur, mengadopsi pola makan sehat, dan berpartisipasi dalam kegiatan fisik yang memadai juga penting untuk meningkatkan kesejahteraan mental dan mengurangi gejala depresi pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf_user] => 0.2
+    [cf_pakar] => 0.8
+    [nilai_cf] => 0.16
+    [id_penyakit] => 1
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf_user] => 0.2
+    [cf_pakar] => 0.8
+    [nilai_cf] => 0.16
+    [id_penyakit] => 3
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf_user] => 0.2
+    [cf_pakar] => 0.9
+    [nilai_cf] => 0.18
+    [id_penyakit] => 5
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Checking relation for gejala 2: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 18
+            [id_penyakit] => 5
+            [id_gejala] => 2
+            [mb] => 0.5
+            [md] => 0
+            [cf] => 0.5
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 36
+            [id_penyakit] => 3
+            [id_gejala] => 2
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Added to CF array: Array
+(
+    [id_gejala] => 2
+    [kode_gejala] => G02
+    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Mungkin
+    [cf_user] => 0.4
+    [cf_pakar] => 0.5
+    [nilai_cf] => 0.2
+    [id_penyakit] => 5
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Added to CF array: Array
+(
+    [id_gejala] => 2
+    [kode_gejala] => G02
+    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Mungkin
+    [cf_user] => 0.4
+    [cf_pakar] => 0.8
+    [nilai_cf] => 0.32
+    [id_penyakit] => 3
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Final CF Array: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+            [cf_pakar] => 0.8
+            [nilai_cf] => 0.16
+            [id_penyakit] => 1
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+            [cf_pakar] => 0.8
+            [nilai_cf] => 0.16
+            [id_penyakit] => 3
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+            [cf_pakar] => 0.9
+            [nilai_cf] => 0.18
+            [id_penyakit] => 5
+        )
+
+    [3] => Array
+        (
+            [id_gejala] => 2
+            [kode_gejala] => G02
+            [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Mungkin
+            [cf_user] => 0.4
+            [cf_pakar] => 0.5
+            [nilai_cf] => 0.2
+            [id_penyakit] => 5
+        )
+
+    [4] => Array
+        (
+            [id_gejala] => 2
+            [kode_gejala] => G02
+            [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Mungkin
+            [cf_user] => 0.4
+            [cf_pakar] => 0.8
+            [nilai_cf] => 0.32
+            [id_penyakit] => 3
+        )
+
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Grouped By Penyakit: Array
+(
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf_user] => 0.2
+                    [cf_pakar] => 0.8
+                    [nilai_cf] => 0.16
+                    [id_penyakit] => 1
+                )
+
+        )
+
+    [3] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf_user] => 0.2
+                    [cf_pakar] => 0.8
+                    [nilai_cf] => 0.16
+                    [id_penyakit] => 3
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 2
+                    [kode_gejala] => G02
+                    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Mungkin
+                    [cf_user] => 0.4
+                    [cf_pakar] => 0.8
+                    [nilai_cf] => 0.32
+                    [id_penyakit] => 3
+                )
+
+        )
+
+    [5] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf_user] => 0.2
+                    [cf_pakar] => 0.9
+                    [nilai_cf] => 0.18
+                    [id_penyakit] => 5
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 2
+                    [kode_gejala] => G02
+                    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Mungkin
+                    [cf_user] => 0.4
+                    [cf_pakar] => 0.5
+                    [nilai_cf] => 0.2
+                    [id_penyakit] => 5
+                )
+
+        )
+
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Isi array $new: Array
+(
+    [0] => Array
+        (
+            [id_penyakit] => 1
+            [nilai_cf] => 0.16
+        )
+
+    [1] => Array
+        (
+            [id_penyakit] => 3
+            [nilai_cf] => 0.4288
+        )
+
+    [2] => Array
+        (
+            [id_penyakit] => 5
+            [nilai_cf] => 0.344
+        )
+
+)
+
+DEBUG - 2025-06-02 04:21:47 --> Max CF Value: 0.4288
+DEBUG - 2025-06-02 04:21:47 --> ID Penyakit Terbesar: 3
+DEBUG - 2025-06-02 04:21:47 --> Penyakit Data: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+INFO - 2025-06-02 04:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 04:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 05:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-02 05:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

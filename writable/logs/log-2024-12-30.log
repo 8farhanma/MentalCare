@@ -1,0 +1,2298 @@
+INFO - 2024-12-30 01:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 01:33:30 --> Selected Gejala: Array
+(
+    [0] => 18
+    [1] => 19
+    [2] => 20
+)
+
+DEBUG - 2024-12-30 01:33:30 --> List CF: Array
+(
+    [0] => 2
+    [1] => 3
+    [2] => 4
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Merged Data CF: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 18
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 19
+            [tingkat_kepercayaan] => Mungkin
+            [cf_user] => 0.4
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 20
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf_user] => 0.6
+        )
+
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Checking relation for gejala 18: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 6
+            [id_penyakit] => 2
+            [id_gejala] => 18
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 15
+            [id_penyakit] => 4
+            [id_gejala] => 18
+            [mb] => 0.4
+            [md] => 0
+            [cf] => 0.4
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 33
+            [id_penyakit] => 6
+            [id_gejala] => 18
+            [mb] => 0.4
+            [md] => 0
+            [cf] => 0.4
+        )
+
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 2
+    [kode_penyakit] => P02
+    [nama_penyakit] => Mild Persistent Depressive Disorder (Dysthymia Ringan)
+    [deskripsi_penyakit] => Mild Persistent Depressive Disorder (Dysthymia) mengacu pada tingkat
+                yang lebih ringan dari Dysthymia. Pada tingkat ini, gejala depresi ada dan
+                terjadi secara terus-menerus selama setidaknya dua tahun, tetapi gejalanya
+                cenderung lebih ringan dan dapat dikelola dengan lebih baik dibandingkan
+                dengan tingkat yang lebih parah.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Persistent Depressive Disorder (Dysthymia) meliputi terapi kognitif perilaku (CBT), dukungan sosial, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengidentifikasi pola pikir negatif dan mengembangkan strategi untuk mengubahnya menjadi pola pikir yang lebih positif. Dukungan sosial dari keluarga, teman, atau kelompok dukungan dapat memberikan dukungan emosional dan praktis dalam menghadapi gejala dysthymia. Perubahan gaya hidup sehat, seperti menjaga pola tidur yang teratur, menerapkan kegiatan fisik yang memadai, dan mengelola stres, juga penting untuk mengelola gejala dysthymia pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Added to CF array: Array
+(
+    [id_gejala] => 18
+    [kode_gejala] => G18
+    [nama_gejala] => Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.8
+    [nilai_cf] => 0.16
+    [id_penyakit] => 2
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 4
+    [kode_penyakit] => P04
+    [nama_penyakit] => Moderate Persistent Depressive Disorder (Dysthymia Sedang)
+    [deskripsi_penyakit] => Moderate Persistent Depressive Disorder (Dysthymia) menggambarkan
+                tingkat Dysthymia yang memiliki gejala sedang. Pada tingkat ini, gejala
+                depresi dapat lebih mengganggu dan mempengaruhi kehidupan sehari-hari
+                individu dengan lebih signifikan.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Persistent Depressive Disorder (Dysthymia) meliputi terapi kognitif perilaku (CBT), konseling psikoterapi, dan dukungan sosial yang positif. Terapi kognitif perilaku dapat membantu individu mengidentifikasi pola pikir negatif dan menggantinya dengan pola pikir yang lebih positif. Konseling psikoterapi dapat memberikan wadah untuk mengeksplorasi penyebab dan emosi yang mendasari dysthymia serta mengembangkan strategi penanganan yang efektif. Dukungan sosial dari keluarga, teman, atau kelompok dukungan juga penting dalam membantu individu mengatasi gejala dan meningkatkan kesejahteraan mental.
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Added to CF array: Array
+(
+    [id_gejala] => 18
+    [kode_gejala] => G18
+    [nama_gejala] => Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.4
+    [nilai_cf] => 0.08
+    [id_penyakit] => 4
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 6
+    [kode_penyakit] => P06
+    [nama_penyakit] => Severe Persistent Depressive Disorder (Dysthymia Parah)
+    [deskripsi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) adalah tingkat
+                Dysthymia yang memiliki gejala yang sangat parah dan menghambat. Pada
+                tingkat ini, gejala depresi yang berat dan terus-menerus mengganggu
+                fungsionalitas individu secara signifikan dalam berbagai aspek kehidupan,
+                termasuk pekerjaan, hubungan, dan kesejahteraan umum.
+    [solusi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) yang parah membutuhkan penanganan yang tepat, seperti konseling psikoterapi, terapi obat, atau terapi gabungan. Dukungan sosial dan pengelolaan stres yang sehat juga penting. Perubahan gaya hidup sehat, seperti tidur yang cukup, pola makan sehat, dan kegiatan fisik yang memadai, juga dapat membantu. Konsultasikan dengan profesional medis atau psikolog untuk mendapatkan penanganan yang sesuai dengan kebutuhan individu.
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Added to CF array: Array
+(
+    [id_gejala] => 18
+    [kode_gejala] => G18
+    [nama_gejala] => Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.4
+    [nilai_cf] => 0.08
+    [id_penyakit] => 6
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Checking relation for gejala 19: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 34
+            [id_penyakit] => 6
+            [id_gejala] => 19
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 6
+    [kode_penyakit] => P06
+    [nama_penyakit] => Severe Persistent Depressive Disorder (Dysthymia Parah)
+    [deskripsi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) adalah tingkat
+                Dysthymia yang memiliki gejala yang sangat parah dan menghambat. Pada
+                tingkat ini, gejala depresi yang berat dan terus-menerus mengganggu
+                fungsionalitas individu secara signifikan dalam berbagai aspek kehidupan,
+                termasuk pekerjaan, hubungan, dan kesejahteraan umum.
+    [solusi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) yang parah membutuhkan penanganan yang tepat, seperti konseling psikoterapi, terapi obat, atau terapi gabungan. Dukungan sosial dan pengelolaan stres yang sehat juga penting. Perubahan gaya hidup sehat, seperti tidur yang cukup, pola makan sehat, dan kegiatan fisik yang memadai, juga dapat membantu. Konsultasikan dengan profesional medis atau psikolog untuk mendapatkan penanganan yang sesuai dengan kebutuhan individu.
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Added to CF array: Array
+(
+    [id_gejala] => 19
+    [kode_gejala] => G19
+    [nama_gejala] => Dalam 2 tahun terakhir anda mengalami putus ada terhadap hal yang sedang anda kejar
+    [tingkat_kepercayaan] => Mungkin
+    [cf] => 0.9
+    [nilai_cf] => 0.36
+    [id_penyakit] => 6
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Checking relation for gejala 20: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 16
+            [id_penyakit] => 4
+            [id_gejala] => 20
+            [mb] => 0.5
+            [md] => 0
+            [cf] => 0.5
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 35
+            [id_penyakit] => 6
+            [id_gejala] => 20
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 4
+    [kode_penyakit] => P04
+    [nama_penyakit] => Moderate Persistent Depressive Disorder (Dysthymia Sedang)
+    [deskripsi_penyakit] => Moderate Persistent Depressive Disorder (Dysthymia) menggambarkan
+                tingkat Dysthymia yang memiliki gejala sedang. Pada tingkat ini, gejala
+                depresi dapat lebih mengganggu dan mempengaruhi kehidupan sehari-hari
+                individu dengan lebih signifikan.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Persistent Depressive Disorder (Dysthymia) meliputi terapi kognitif perilaku (CBT), konseling psikoterapi, dan dukungan sosial yang positif. Terapi kognitif perilaku dapat membantu individu mengidentifikasi pola pikir negatif dan menggantinya dengan pola pikir yang lebih positif. Konseling psikoterapi dapat memberikan wadah untuk mengeksplorasi penyebab dan emosi yang mendasari dysthymia serta mengembangkan strategi penanganan yang efektif. Dukungan sosial dari keluarga, teman, atau kelompok dukungan juga penting dalam membantu individu mengatasi gejala dan meningkatkan kesejahteraan mental.
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Added to CF array: Array
+(
+    [id_gejala] => 20
+    [kode_gejala] => G20
+    [nama_gejala] => Anda merasa tidak pernah bahagia dalam 2 tahun terakhir
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.5
+    [nilai_cf] => 0.3
+    [id_penyakit] => 4
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 6
+    [kode_penyakit] => P06
+    [nama_penyakit] => Severe Persistent Depressive Disorder (Dysthymia Parah)
+    [deskripsi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) adalah tingkat
+                Dysthymia yang memiliki gejala yang sangat parah dan menghambat. Pada
+                tingkat ini, gejala depresi yang berat dan terus-menerus mengganggu
+                fungsionalitas individu secara signifikan dalam berbagai aspek kehidupan,
+                termasuk pekerjaan, hubungan, dan kesejahteraan umum.
+    [solusi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) yang parah membutuhkan penanganan yang tepat, seperti konseling psikoterapi, terapi obat, atau terapi gabungan. Dukungan sosial dan pengelolaan stres yang sehat juga penting. Perubahan gaya hidup sehat, seperti tidur yang cukup, pola makan sehat, dan kegiatan fisik yang memadai, juga dapat membantu. Konsultasikan dengan profesional medis atau psikolog untuk mendapatkan penanganan yang sesuai dengan kebutuhan individu.
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Added to CF array: Array
+(
+    [id_gejala] => 20
+    [kode_gejala] => G20
+    [nama_gejala] => Anda merasa tidak pernah bahagia dalam 2 tahun terakhir
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.9
+    [nilai_cf] => 0.54
+    [id_penyakit] => 6
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Final CF Array: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 18
+            [kode_gejala] => G18
+            [nama_gejala] => Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.8
+            [nilai_cf] => 0.16
+            [id_penyakit] => 2
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 18
+            [kode_gejala] => G18
+            [nama_gejala] => Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.4
+            [nilai_cf] => 0.08
+            [id_penyakit] => 4
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 18
+            [kode_gejala] => G18
+            [nama_gejala] => Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.4
+            [nilai_cf] => 0.08
+            [id_penyakit] => 6
+        )
+
+    [3] => Array
+        (
+            [id_gejala] => 19
+            [kode_gejala] => G19
+            [nama_gejala] => Dalam 2 tahun terakhir anda mengalami putus ada terhadap hal yang sedang anda kejar
+            [tingkat_kepercayaan] => Mungkin
+            [cf] => 0.9
+            [nilai_cf] => 0.36
+            [id_penyakit] => 6
+        )
+
+    [4] => Array
+        (
+            [id_gejala] => 20
+            [kode_gejala] => G20
+            [nama_gejala] => Anda merasa tidak pernah bahagia dalam 2 tahun terakhir
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.5
+            [nilai_cf] => 0.3
+            [id_penyakit] => 4
+        )
+
+    [5] => Array
+        (
+            [id_gejala] => 20
+            [kode_gejala] => G20
+            [nama_gejala] => Anda merasa tidak pernah bahagia dalam 2 tahun terakhir
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.9
+            [nilai_cf] => 0.54
+            [id_penyakit] => 6
+        )
+
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Grouped By Penyakit: Array
+(
+    [2] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 18
+                    [kode_gejala] => G18
+                    [nama_gejala] => Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.16
+                    [id_penyakit] => 2
+                )
+
+        )
+
+    [4] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 18
+                    [kode_gejala] => G18
+                    [nama_gejala] => Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.4
+                    [nilai_cf] => 0.08
+                    [id_penyakit] => 4
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 20
+                    [kode_gejala] => G20
+                    [nama_gejala] => Anda merasa tidak pernah bahagia dalam 2 tahun terakhir
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.5
+                    [nilai_cf] => 0.3
+                    [id_penyakit] => 4
+                )
+
+        )
+
+    [6] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 18
+                    [kode_gejala] => G18
+                    [nama_gejala] => Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.4
+                    [nilai_cf] => 0.08
+                    [id_penyakit] => 6
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 19
+                    [kode_gejala] => G19
+                    [nama_gejala] => Dalam 2 tahun terakhir anda mengalami putus ada terhadap hal yang sedang anda kejar
+                    [tingkat_kepercayaan] => Mungkin
+                    [cf] => 0.9
+                    [nilai_cf] => 0.36
+                    [id_penyakit] => 6
+                )
+
+            [2] => Array
+                (
+                    [id_gejala] => 20
+                    [kode_gejala] => G20
+                    [nama_gejala] => Anda merasa tidak pernah bahagia dalam 2 tahun terakhir
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.9
+                    [nilai_cf] => 0.54
+                    [id_penyakit] => 6
+                )
+
+        )
+
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Isi array $new: Array
+(
+    [0] => Array
+        (
+            [id_penyakit] => 2
+            [nilai_cf] => 0.16
+        )
+
+    [1] => Array
+        (
+            [id_penyakit] => 4
+            [nilai_cf] => 0.356
+        )
+
+    [2] => Array
+        (
+            [id_penyakit] => 6
+            [nilai_cf] => 0.729152
+        )
+
+)
+
+DEBUG - 2024-12-30 01:33:30 --> Max CF Value: 0.729152
+DEBUG - 2024-12-30 01:33:30 --> ID Penyakit Terbesar: 6
+DEBUG - 2024-12-30 01:33:30 --> Penyakit Data: Array
+(
+    [id_penyakit] => 6
+    [kode_penyakit] => P06
+    [nama_penyakit] => Severe Persistent Depressive Disorder (Dysthymia Parah)
+    [deskripsi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) adalah tingkat
+                Dysthymia yang memiliki gejala yang sangat parah dan menghambat. Pada
+                tingkat ini, gejala depresi yang berat dan terus-menerus mengganggu
+                fungsionalitas individu secara signifikan dalam berbagai aspek kehidupan,
+                termasuk pekerjaan, hubungan, dan kesejahteraan umum.
+    [solusi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) yang parah membutuhkan penanganan yang tepat, seperti konseling psikoterapi, terapi obat, atau terapi gabungan. Dukungan sosial dan pengelolaan stres yang sehat juga penting. Perubahan gaya hidup sehat, seperti tidur yang cukup, pola makan sehat, dan kegiatan fisik yang memadai, juga dapat membantu. Konsultasikan dengan profesional medis atau psikolog untuk mendapatkan penanganan yang sesuai dengan kebutuhan individu.
+)
+
+INFO - 2024-12-30 01:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 01:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 01:57:07 --> Selected Gejala: Array
+(
+    [0] => 1
+    [1] => 7
+    [2] => 8
+)
+
+DEBUG - 2024-12-30 01:57:07 --> List CF: Array
+(
+    [0] => 4
+    [1] => 4
+    [2] => 5
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Merged Data CF: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf_user] => 0.6
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 7
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf_user] => 0.6
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 8
+            [tingkat_kepercayaan] => Pasti
+            [cf_user] => 0.8
+        )
+
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Checking relation for gejala 1: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 1
+            [id_penyakit] => 1
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 7
+            [id_penyakit] => 3
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 17
+            [id_penyakit] => 5
+            [id_gejala] => 1
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 1
+    [kode_penyakit] => P01
+    [nama_penyakit] => Mild Major Depressive Disorder (Ringan)
+    [deskripsi_penyakit] => Mild Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang lebih ringan dibandingkan dengan tingkat yang lebih
+                parah. Pada tingkat ini, gejala depresi biasanya memengaruhi kehidupan
+                sehari-hari, namun individu masih dapat menjalani aktivitas sehari-hari
+                dengan tingkat fungsionalitas yang relatif normal.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Major Depressive Disorder melibatkan kombinasi terapi kognitif perilaku (CBT), terapi dukungan, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengubah pola pikir negatif menjadi pola pikir yang lebih adaptif dan positif. Terapi dukungan, seperti terapi interpersonal atau kelompok dukungan, dapat memberikan wadah untuk berbagi pengalaman dan mendapatkan dukungan emosional dari orang-orang terdekat. Selain itu, menjaga pola tidur yang teratur, mengadopsi pola makan sehat, dan berpartisipasi dalam kegiatan fisik yang memadai juga penting untuk meningkatkan kesejahteraan mental dan mengurangi gejala depresi pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.8
+    [nilai_cf] => 0.48
+    [id_penyakit] => 1
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.8
+    [nilai_cf] => 0.48
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.9
+    [nilai_cf] => 0.54
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Checking relation for gejala 7: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 10
+            [id_penyakit] => 3
+            [id_gejala] => 7
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 23
+            [id_penyakit] => 5
+            [id_gejala] => 7
+            [mb] => 0.4
+            [md] => 0
+            [cf] => 0.4
+        )
+
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Added to CF array: Array
+(
+    [id_gejala] => 7
+    [kode_gejala] => G07
+    [nama_gejala] => Anda merasa rendah diri atau merasa bersalah secara berlebihan hampir setiap hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.9
+    [nilai_cf] => 0.54
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Added to CF array: Array
+(
+    [id_gejala] => 7
+    [kode_gejala] => G07
+    [nama_gejala] => Anda merasa rendah diri atau merasa bersalah secara berlebihan hampir setiap hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.4
+    [nilai_cf] => 0.24
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Checking relation for gejala 8: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 3
+            [id_penyakit] => 1
+            [id_gejala] => 8
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 11
+            [id_penyakit] => 3
+            [id_gejala] => 8
+            [mb] => 0.7
+            [md] => 0
+            [cf] => 0.7
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 24
+            [id_penyakit] => 5
+            [id_gejala] => 8
+            [mb] => 0.5
+            [md] => 0
+            [cf] => 0.5
+        )
+
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 1
+    [kode_penyakit] => P01
+    [nama_penyakit] => Mild Major Depressive Disorder (Ringan)
+    [deskripsi_penyakit] => Mild Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang lebih ringan dibandingkan dengan tingkat yang lebih
+                parah. Pada tingkat ini, gejala depresi biasanya memengaruhi kehidupan
+                sehari-hari, namun individu masih dapat menjalani aktivitas sehari-hari
+                dengan tingkat fungsionalitas yang relatif normal.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Major Depressive Disorder melibatkan kombinasi terapi kognitif perilaku (CBT), terapi dukungan, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengubah pola pikir negatif menjadi pola pikir yang lebih adaptif dan positif. Terapi dukungan, seperti terapi interpersonal atau kelompok dukungan, dapat memberikan wadah untuk berbagi pengalaman dan mendapatkan dukungan emosional dari orang-orang terdekat. Selain itu, menjaga pola tidur yang teratur, mengadopsi pola makan sehat, dan berpartisipasi dalam kegiatan fisik yang memadai juga penting untuk meningkatkan kesejahteraan mental dan mengurangi gejala depresi pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Added to CF array: Array
+(
+    [id_gejala] => 8
+    [kode_gejala] => G08
+    [nama_gejala] => Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Pasti
+    [cf] => 0.8
+    [nilai_cf] => 0.64
+    [id_penyakit] => 1
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Added to CF array: Array
+(
+    [id_gejala] => 8
+    [kode_gejala] => G08
+    [nama_gejala] => Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Pasti
+    [cf] => 0.7
+    [nilai_cf] => 0.56
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Added to CF array: Array
+(
+    [id_gejala] => 8
+    [kode_gejala] => G08
+    [nama_gejala] => Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Pasti
+    [cf] => 0.5
+    [nilai_cf] => 0.4
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Final CF Array: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.8
+            [nilai_cf] => 0.48
+            [id_penyakit] => 1
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.8
+            [nilai_cf] => 0.48
+            [id_penyakit] => 3
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.9
+            [nilai_cf] => 0.54
+            [id_penyakit] => 5
+        )
+
+    [3] => Array
+        (
+            [id_gejala] => 7
+            [kode_gejala] => G07
+            [nama_gejala] => Anda merasa rendah diri atau merasa bersalah secara berlebihan hampir setiap hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.9
+            [nilai_cf] => 0.54
+            [id_penyakit] => 3
+        )
+
+    [4] => Array
+        (
+            [id_gejala] => 7
+            [kode_gejala] => G07
+            [nama_gejala] => Anda merasa rendah diri atau merasa bersalah secara berlebihan hampir setiap hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.4
+            [nilai_cf] => 0.24
+            [id_penyakit] => 5
+        )
+
+    [5] => Array
+        (
+            [id_gejala] => 8
+            [kode_gejala] => G08
+            [nama_gejala] => Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Pasti
+            [cf] => 0.8
+            [nilai_cf] => 0.64
+            [id_penyakit] => 1
+        )
+
+    [6] => Array
+        (
+            [id_gejala] => 8
+            [kode_gejala] => G08
+            [nama_gejala] => Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Pasti
+            [cf] => 0.7
+            [nilai_cf] => 0.56
+            [id_penyakit] => 3
+        )
+
+    [7] => Array
+        (
+            [id_gejala] => 8
+            [kode_gejala] => G08
+            [nama_gejala] => Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Pasti
+            [cf] => 0.5
+            [nilai_cf] => 0.4
+            [id_penyakit] => 5
+        )
+
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Grouped By Penyakit: Array
+(
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.8
+                    [nilai_cf] => 0.48
+                    [id_penyakit] => 1
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 8
+                    [kode_gejala] => G08
+                    [nama_gejala] => Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Pasti
+                    [cf] => 0.8
+                    [nilai_cf] => 0.64
+                    [id_penyakit] => 1
+                )
+
+        )
+
+    [3] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.8
+                    [nilai_cf] => 0.48
+                    [id_penyakit] => 3
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 7
+                    [kode_gejala] => G07
+                    [nama_gejala] => Anda merasa rendah diri atau merasa bersalah secara berlebihan hampir setiap hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.9
+                    [nilai_cf] => 0.54
+                    [id_penyakit] => 3
+                )
+
+            [2] => Array
+                (
+                    [id_gejala] => 8
+                    [kode_gejala] => G08
+                    [nama_gejala] => Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Pasti
+                    [cf] => 0.7
+                    [nilai_cf] => 0.56
+                    [id_penyakit] => 3
+                )
+
+        )
+
+    [5] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.9
+                    [nilai_cf] => 0.54
+                    [id_penyakit] => 5
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 7
+                    [kode_gejala] => G07
+                    [nama_gejala] => Anda merasa rendah diri atau merasa bersalah secara berlebihan hampir setiap hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.4
+                    [nilai_cf] => 0.24
+                    [id_penyakit] => 5
+                )
+
+            [2] => Array
+                (
+                    [id_gejala] => 8
+                    [kode_gejala] => G08
+                    [nama_gejala] => Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Pasti
+                    [cf] => 0.5
+                    [nilai_cf] => 0.4
+                    [id_penyakit] => 5
+                )
+
+        )
+
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Isi array $new: Array
+(
+    [0] => Array
+        (
+            [id_penyakit] => 1
+            [nilai_cf] => 0.8128
+        )
+
+    [1] => Array
+        (
+            [id_penyakit] => 3
+            [nilai_cf] => 0.894752
+        )
+
+    [2] => Array
+        (
+            [id_penyakit] => 5
+            [nilai_cf] => 0.79024
+        )
+
+)
+
+DEBUG - 2024-12-30 01:57:07 --> Max CF Value: 0.894752
+DEBUG - 2024-12-30 01:57:07 --> ID Penyakit Terbesar: 3
+DEBUG - 2024-12-30 01:57:07 --> Penyakit Data: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+INFO - 2024-12-30 01:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 06:16:15 --> Selected Gejala: Array
+(
+    [0] => 1
+    [1] => 2
+    [2] => 3
+)
+
+DEBUG - 2024-12-30 06:16:15 --> List CF: Array
+(
+    [0] => 3
+    [1] => 4
+    [2] => 3
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Merged Data CF: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [tingkat_kepercayaan] => Mungkin
+            [cf_user] => 0.4
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 2
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf_user] => 0.6
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 3
+            [tingkat_kepercayaan] => Mungkin
+            [cf_user] => 0.4
+        )
+
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Checking relation for gejala 1: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 1
+            [id_penyakit] => 1
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 7
+            [id_penyakit] => 3
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 17
+            [id_penyakit] => 5
+            [id_gejala] => 1
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 1
+    [kode_penyakit] => P01
+    [nama_penyakit] => Mild Major Depressive Disorder (Ringan)
+    [deskripsi_penyakit] => Mild Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang lebih ringan dibandingkan dengan tingkat yang lebih
+                parah. Pada tingkat ini, gejala depresi biasanya memengaruhi kehidupan
+                sehari-hari, namun individu masih dapat menjalani aktivitas sehari-hari
+                dengan tingkat fungsionalitas yang relatif normal.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Major Depressive Disorder melibatkan kombinasi terapi kognitif perilaku (CBT), terapi dukungan, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengubah pola pikir negatif menjadi pola pikir yang lebih adaptif dan positif. Terapi dukungan, seperti terapi interpersonal atau kelompok dukungan, dapat memberikan wadah untuk berbagi pengalaman dan mendapatkan dukungan emosional dari orang-orang terdekat. Selain itu, menjaga pola tidur yang teratur, mengadopsi pola makan sehat, dan berpartisipasi dalam kegiatan fisik yang memadai juga penting untuk meningkatkan kesejahteraan mental dan mengurangi gejala depresi pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Mungkin
+    [cf] => 0.8
+    [nilai_cf] => 0.32
+    [id_penyakit] => 1
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Mungkin
+    [cf] => 0.8
+    [nilai_cf] => 0.32
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Mungkin
+    [cf] => 0.9
+    [nilai_cf] => 0.36
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Checking relation for gejala 2: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 18
+            [id_penyakit] => 5
+            [id_gejala] => 2
+            [mb] => 0.5
+            [md] => 0
+            [cf] => 0.5
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 36
+            [id_penyakit] => 3
+            [id_gejala] => 2
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Added to CF array: Array
+(
+    [id_gejala] => 2
+    [kode_gejala] => G02
+    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.5
+    [nilai_cf] => 0.3
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Added to CF array: Array
+(
+    [id_gejala] => 2
+    [kode_gejala] => G02
+    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.8
+    [nilai_cf] => 0.48
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Checking relation for gejala 3: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 8
+            [id_penyakit] => 3
+            [id_gejala] => 3
+            [mb] => 0.7
+            [md] => 0
+            [cf] => 0.7
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 19
+            [id_penyakit] => 5
+            [id_gejala] => 3
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Added to CF array: Array
+(
+    [id_gejala] => 3
+    [kode_gejala] => G03
+    [nama_gejala] => Anda mengalami perubahan berat badan yang signifikan tanpa melakukan diet atau perubahan nafsu makan selama 2 minggu terakhir
+    [tingkat_kepercayaan] => Mungkin
+    [cf] => 0.7
+    [nilai_cf] => 0.28
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Added to CF array: Array
+(
+    [id_gejala] => 3
+    [kode_gejala] => G03
+    [nama_gejala] => Anda mengalami perubahan berat badan yang signifikan tanpa melakukan diet atau perubahan nafsu makan selama 2 minggu terakhir
+    [tingkat_kepercayaan] => Mungkin
+    [cf] => 0.8
+    [nilai_cf] => 0.32
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Final CF Array: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Mungkin
+            [cf] => 0.8
+            [nilai_cf] => 0.32
+            [id_penyakit] => 1
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Mungkin
+            [cf] => 0.8
+            [nilai_cf] => 0.32
+            [id_penyakit] => 3
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Mungkin
+            [cf] => 0.9
+            [nilai_cf] => 0.36
+            [id_penyakit] => 5
+        )
+
+    [3] => Array
+        (
+            [id_gejala] => 2
+            [kode_gejala] => G02
+            [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.5
+            [nilai_cf] => 0.3
+            [id_penyakit] => 5
+        )
+
+    [4] => Array
+        (
+            [id_gejala] => 2
+            [kode_gejala] => G02
+            [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.8
+            [nilai_cf] => 0.48
+            [id_penyakit] => 3
+        )
+
+    [5] => Array
+        (
+            [id_gejala] => 3
+            [kode_gejala] => G03
+            [nama_gejala] => Anda mengalami perubahan berat badan yang signifikan tanpa melakukan diet atau perubahan nafsu makan selama 2 minggu terakhir
+            [tingkat_kepercayaan] => Mungkin
+            [cf] => 0.7
+            [nilai_cf] => 0.28
+            [id_penyakit] => 3
+        )
+
+    [6] => Array
+        (
+            [id_gejala] => 3
+            [kode_gejala] => G03
+            [nama_gejala] => Anda mengalami perubahan berat badan yang signifikan tanpa melakukan diet atau perubahan nafsu makan selama 2 minggu terakhir
+            [tingkat_kepercayaan] => Mungkin
+            [cf] => 0.8
+            [nilai_cf] => 0.32
+            [id_penyakit] => 5
+        )
+
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Grouped By Penyakit: Array
+(
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Mungkin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.32
+                    [id_penyakit] => 1
+                )
+
+        )
+
+    [3] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Mungkin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.32
+                    [id_penyakit] => 3
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 2
+                    [kode_gejala] => G02
+                    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.8
+                    [nilai_cf] => 0.48
+                    [id_penyakit] => 3
+                )
+
+            [2] => Array
+                (
+                    [id_gejala] => 3
+                    [kode_gejala] => G03
+                    [nama_gejala] => Anda mengalami perubahan berat badan yang signifikan tanpa melakukan diet atau perubahan nafsu makan selama 2 minggu terakhir
+                    [tingkat_kepercayaan] => Mungkin
+                    [cf] => 0.7
+                    [nilai_cf] => 0.28
+                    [id_penyakit] => 3
+                )
+
+        )
+
+    [5] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Mungkin
+                    [cf] => 0.9
+                    [nilai_cf] => 0.36
+                    [id_penyakit] => 5
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 2
+                    [kode_gejala] => G02
+                    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.5
+                    [nilai_cf] => 0.3
+                    [id_penyakit] => 5
+                )
+
+            [2] => Array
+                (
+                    [id_gejala] => 3
+                    [kode_gejala] => G03
+                    [nama_gejala] => Anda mengalami perubahan berat badan yang signifikan tanpa melakukan diet atau perubahan nafsu makan selama 2 minggu terakhir
+                    [tingkat_kepercayaan] => Mungkin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.32
+                    [id_penyakit] => 5
+                )
+
+        )
+
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Isi array $new: Array
+(
+    [0] => Array
+        (
+            [id_penyakit] => 1
+            [nilai_cf] => 0.32
+        )
+
+    [1] => Array
+        (
+            [id_penyakit] => 3
+            [nilai_cf] => 0.745408
+        )
+
+    [2] => Array
+        (
+            [id_penyakit] => 5
+            [nilai_cf] => 0.69536
+        )
+
+)
+
+DEBUG - 2024-12-30 06:16:15 --> Max CF Value: 0.745408
+DEBUG - 2024-12-30 06:16:15 --> ID Penyakit Terbesar: 3
+DEBUG - 2024-12-30 06:16:15 --> Penyakit Data: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+INFO - 2024-12-30 06:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 06:53:59 --> Selected Gejala: Array
+(
+    [0] => 1
+    [1] => 2
+)
+
+DEBUG - 2024-12-30 06:53:59 --> List CF: Array
+(
+    [0] => 2
+    [1] => 2
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Merged Data CF: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 2
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+        )
+
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Checking relation for gejala 1: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 1
+            [id_penyakit] => 1
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 7
+            [id_penyakit] => 3
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 17
+            [id_penyakit] => 5
+            [id_gejala] => 1
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 1
+    [kode_penyakit] => P01
+    [nama_penyakit] => Mild Major Depressive Disorder (Ringan)
+    [deskripsi_penyakit] => Mild Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang lebih ringan dibandingkan dengan tingkat yang lebih
+                parah. Pada tingkat ini, gejala depresi biasanya memengaruhi kehidupan
+                sehari-hari, namun individu masih dapat menjalani aktivitas sehari-hari
+                dengan tingkat fungsionalitas yang relatif normal.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Major Depressive Disorder melibatkan kombinasi terapi kognitif perilaku (CBT), terapi dukungan, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengubah pola pikir negatif menjadi pola pikir yang lebih adaptif dan positif. Terapi dukungan, seperti terapi interpersonal atau kelompok dukungan, dapat memberikan wadah untuk berbagi pengalaman dan mendapatkan dukungan emosional dari orang-orang terdekat. Selain itu, menjaga pola tidur yang teratur, mengadopsi pola makan sehat, dan berpartisipasi dalam kegiatan fisik yang memadai juga penting untuk meningkatkan kesejahteraan mental dan mengurangi gejala depresi pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.8
+    [nilai_cf] => 0.16
+    [id_penyakit] => 1
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.8
+    [nilai_cf] => 0.16
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.9
+    [nilai_cf] => 0.18
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Checking relation for gejala 2: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 18
+            [id_penyakit] => 5
+            [id_gejala] => 2
+            [mb] => 0.5
+            [md] => 0
+            [cf] => 0.5
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 36
+            [id_penyakit] => 3
+            [id_gejala] => 2
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Added to CF array: Array
+(
+    [id_gejala] => 2
+    [kode_gejala] => G02
+    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.5
+    [nilai_cf] => 0.1
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Added to CF array: Array
+(
+    [id_gejala] => 2
+    [kode_gejala] => G02
+    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.8
+    [nilai_cf] => 0.16
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Final CF Array: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.8
+            [nilai_cf] => 0.16
+            [id_penyakit] => 1
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.8
+            [nilai_cf] => 0.16
+            [id_penyakit] => 3
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.9
+            [nilai_cf] => 0.18
+            [id_penyakit] => 5
+        )
+
+    [3] => Array
+        (
+            [id_gejala] => 2
+            [kode_gejala] => G02
+            [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.5
+            [nilai_cf] => 0.1
+            [id_penyakit] => 5
+        )
+
+    [4] => Array
+        (
+            [id_gejala] => 2
+            [kode_gejala] => G02
+            [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.8
+            [nilai_cf] => 0.16
+            [id_penyakit] => 3
+        )
+
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Grouped By Penyakit: Array
+(
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.16
+                    [id_penyakit] => 1
+                )
+
+        )
+
+    [3] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.16
+                    [id_penyakit] => 3
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 2
+                    [kode_gejala] => G02
+                    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.16
+                    [id_penyakit] => 3
+                )
+
+        )
+
+    [5] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.9
+                    [nilai_cf] => 0.18
+                    [id_penyakit] => 5
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 2
+                    [kode_gejala] => G02
+                    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.5
+                    [nilai_cf] => 0.1
+                    [id_penyakit] => 5
+                )
+
+        )
+
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Isi array $new: Array
+(
+    [0] => Array
+        (
+            [id_penyakit] => 1
+            [nilai_cf] => 0.16
+        )
+
+    [1] => Array
+        (
+            [id_penyakit] => 3
+            [nilai_cf] => 0.2944
+        )
+
+    [2] => Array
+        (
+            [id_penyakit] => 5
+            [nilai_cf] => 0.262
+        )
+
+)
+
+DEBUG - 2024-12-30 06:53:59 --> Max CF Value: 0.2944
+DEBUG - 2024-12-30 06:53:59 --> ID Penyakit Terbesar: 3
+DEBUG - 2024-12-30 06:53:59 --> Penyakit Data: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+INFO - 2024-12-30 06:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 06:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 06:56:32 --> Selected Gejala: Array
+(
+    [0] => 1
+    [1] => 2
+)
+
+DEBUG - 2024-12-30 06:56:32 --> List CF: Array
+(
+    [0] => 1
+    [1] => 5
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Merged Data CF: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [tingkat_kepercayaan] => Tidak Sama Sekali
+            [cf_user] => 0
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 2
+            [tingkat_kepercayaan] => Pasti
+            [cf_user] => 0.8
+        )
+
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Checking relation for gejala 1: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 1
+            [id_penyakit] => 1
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 7
+            [id_penyakit] => 3
+            [id_gejala] => 1
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 17
+            [id_penyakit] => 5
+            [id_gejala] => 1
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 1
+    [kode_penyakit] => P01
+    [nama_penyakit] => Mild Major Depressive Disorder (Ringan)
+    [deskripsi_penyakit] => Mild Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang lebih ringan dibandingkan dengan tingkat yang lebih
+                parah. Pada tingkat ini, gejala depresi biasanya memengaruhi kehidupan
+                sehari-hari, namun individu masih dapat menjalani aktivitas sehari-hari
+                dengan tingkat fungsionalitas yang relatif normal.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Major Depressive Disorder melibatkan kombinasi terapi kognitif perilaku (CBT), terapi dukungan, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengubah pola pikir negatif menjadi pola pikir yang lebih adaptif dan positif. Terapi dukungan, seperti terapi interpersonal atau kelompok dukungan, dapat memberikan wadah untuk berbagi pengalaman dan mendapatkan dukungan emosional dari orang-orang terdekat. Selain itu, menjaga pola tidur yang teratur, mengadopsi pola makan sehat, dan berpartisipasi dalam kegiatan fisik yang memadai juga penting untuk meningkatkan kesejahteraan mental dan mengurangi gejala depresi pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Tidak Sama Sekali
+    [cf] => 0.8
+    [nilai_cf] => 0
+    [id_penyakit] => 1
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Tidak Sama Sekali
+    [cf] => 0.8
+    [nilai_cf] => 0
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Added to CF array: Array
+(
+    [id_gejala] => 1
+    [kode_gejala] => G01
+    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+    [tingkat_kepercayaan] => Tidak Sama Sekali
+    [cf] => 0.9
+    [nilai_cf] => 0
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Checking relation for gejala 2: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 18
+            [id_penyakit] => 5
+            [id_gejala] => 2
+            [mb] => 0.5
+            [md] => 0
+            [cf] => 0.5
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 36
+            [id_penyakit] => 3
+            [id_gejala] => 2
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Added to CF array: Array
+(
+    [id_gejala] => 2
+    [kode_gejala] => G02
+    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Pasti
+    [cf] => 0.5
+    [nilai_cf] => 0.4
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Added to CF array: Array
+(
+    [id_gejala] => 2
+    [kode_gejala] => G02
+    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+    [tingkat_kepercayaan] => Pasti
+    [cf] => 0.8
+    [nilai_cf] => 0.64
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Final CF Array: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Tidak Sama Sekali
+            [cf] => 0.8
+            [nilai_cf] => 0
+            [id_penyakit] => 1
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Tidak Sama Sekali
+            [cf] => 0.8
+            [nilai_cf] => 0
+            [id_penyakit] => 3
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 1
+            [kode_gejala] => G01
+            [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+            [tingkat_kepercayaan] => Tidak Sama Sekali
+            [cf] => 0.9
+            [nilai_cf] => 0
+            [id_penyakit] => 5
+        )
+
+    [3] => Array
+        (
+            [id_gejala] => 2
+            [kode_gejala] => G02
+            [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Pasti
+            [cf] => 0.5
+            [nilai_cf] => 0.4
+            [id_penyakit] => 5
+        )
+
+    [4] => Array
+        (
+            [id_gejala] => 2
+            [kode_gejala] => G02
+            [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+            [tingkat_kepercayaan] => Pasti
+            [cf] => 0.8
+            [nilai_cf] => 0.64
+            [id_penyakit] => 3
+        )
+
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Grouped By Penyakit: Array
+(
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Tidak Sama Sekali
+                    [cf] => 0.8
+                    [nilai_cf] => 0
+                    [id_penyakit] => 1
+                )
+
+        )
+
+    [3] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Tidak Sama Sekali
+                    [cf] => 0.8
+                    [nilai_cf] => 0
+                    [id_penyakit] => 3
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 2
+                    [kode_gejala] => G02
+                    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Pasti
+                    [cf] => 0.8
+                    [nilai_cf] => 0.64
+                    [id_penyakit] => 3
+                )
+
+        )
+
+    [5] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 1
+                    [kode_gejala] => G01
+                    [nama_gejala] => Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu
+                    [tingkat_kepercayaan] => Tidak Sama Sekali
+                    [cf] => 0.9
+                    [nilai_cf] => 0
+                    [id_penyakit] => 5
+                )
+
+            [1] => Array
+                (
+                    [id_gejala] => 2
+                    [kode_gejala] => G02
+                    [nama_gejala] => Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir
+                    [tingkat_kepercayaan] => Pasti
+                    [cf] => 0.5
+                    [nilai_cf] => 0.4
+                    [id_penyakit] => 5
+                )
+
+        )
+
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Isi array $new: Array
+(
+    [0] => Array
+        (
+            [id_penyakit] => 1
+            [nilai_cf] => 0
+        )
+
+    [1] => Array
+        (
+            [id_penyakit] => 3
+            [nilai_cf] => 0.64
+        )
+
+    [2] => Array
+        (
+            [id_penyakit] => 5
+            [nilai_cf] => 0.4
+        )
+
+)
+
+DEBUG - 2024-12-30 06:56:32 --> Max CF Value: 0.64
+DEBUG - 2024-12-30 06:56:32 --> ID Penyakit Terbesar: 3
+DEBUG - 2024-12-30 06:56:32 --> Penyakit Data: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+INFO - 2024-12-30 06:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

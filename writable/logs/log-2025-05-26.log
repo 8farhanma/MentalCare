@@ -1,0 +1,149 @@
+INFO - 2025-05-26 02:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 03:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 03:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 03:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 04:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 12:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 13:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 13:09:37 --> Invalid file: "layout/homepage/template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/homepage/template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/homepage/template', [], true)
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('chatbot/index', [], true)
+ 4 APPPATH\Controllers\ChatbotController.php(11): view('chatbot/index')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ChatbotController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-05-26 13:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 13:11:57 --> Undefined variable $title
+in APPPATH\Views\layout\homepage.php on line 8.
+ 1 APPPATH\Views\layout\homepage.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\layout\\homepage.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\layout\\homepage.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/homepage', [], true)
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('chatbot/index', [], true)
+ 6 APPPATH\Controllers\ChatbotController.php(11): view('chatbot/index')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ChatbotController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-05-26 13:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 13:12:00 --> Undefined variable $title
+in APPPATH\Views\layout\homepage.php on line 8.
+ 1 APPPATH\Views\layout\homepage.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\layout\\homepage.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\layout\\homepage.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/homepage', [], true)
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('chatbot/index', [], true)
+ 6 APPPATH\Controllers\ChatbotController.php(11): view('chatbot/index')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ChatbotController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-05-26 13:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 13:12:03 --> Undefined variable $title
+in APPPATH\Views\layout\homepage.php on line 8.
+ 1 APPPATH\Views\layout\homepage.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\layout\\homepage.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\layout\\homepage.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/homepage', [], true)
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('chatbot/index', [], true)
+ 6 APPPATH\Controllers\ChatbotController.php(11): view('chatbot/index')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ChatbotController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-05-26 13:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 13:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 13:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 13:21:51 --> Sending message to Flask API: halo
+DEBUG - 2025-05-26 13:22:21 --> Flask API response code: 0
+DEBUG - 2025-05-26 13:22:21 --> Flask API response: 
+DEBUG - 2025-05-26 13:22:21 --> Flask API error (if any): Operation timed out after 30003 milliseconds with 0 bytes received
+DEBUG - 2025-05-26 13:26:25 --> Sending message to Flask API: bagaimana menanggulangi depresi?
+DEBUG - 2025-05-26 13:26:55 --> Flask API response code: 0
+DEBUG - 2025-05-26 13:26:55 --> Flask API response: 
+DEBUG - 2025-05-26 13:26:55 --> Flask API error (if any): Operation timed out after 30013 milliseconds with 0 bytes received
+INFO - 2025-05-26 13:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 13:31:19 --> Sending message to Flask API: Bagaimana saya menanggulangi depresi
+DEBUG - 2025-05-26 13:31:38 --> Flask API response code: 0
+DEBUG - 2025-05-26 13:31:38 --> Flask API response: 
+DEBUG - 2025-05-26 13:31:38 --> Flask API error (if any): Recv failure: Connection was reset
+INFO - 2025-05-26 13:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-26 13:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 13:32:22 --> Sending message to Flask API: Bagaimana saya menanggulangi depresi?
+DEBUG - 2025-05-26 13:32:52 --> Flask API response code: 0
+DEBUG - 2025-05-26 13:32:52 --> Flask API response: 
+DEBUG - 2025-05-26 13:32:52 --> Flask API error (if any): Operation timed out after 30009 milliseconds with 0 bytes received
+INFO - 2025-05-26 13:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 13:45:57 --> Sending message to Flask API: Bagaimana saya dapat mengatasi gejala depresi?
+DEBUG - 2025-05-26 13:45:58 --> Flask API response code: 500
+DEBUG - 2025-05-26 13:45:58 --> Flask API response: {
+  "error": "name 'prompt' is not defined",
+  "response": "Mohon maaf, terjadi kesalahan dalam memproses pertanyaan Anda. Silakan coba lagi dengan pertanyaan yang berbeda.",
+  "status": "error"
+}
+
+DEBUG - 2025-05-26 13:45:58 --> Flask API error (if any): 
+INFO - 2025-05-26 13:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 13:47:42 --> Sending message to Flask API: Bagaimana saya dapat mengatasi gejala depresi?
+DEBUG - 2025-05-26 13:48:12 --> Flask API response code: 0
+DEBUG - 2025-05-26 13:48:12 --> Flask API response: 
+DEBUG - 2025-05-26 13:48:12 --> Flask API error (if any): Operation timed out after 30003 milliseconds with 0 bytes received
+INFO - 2025-05-26 13:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 13:54:15 --> Sending message to Flask API: Bagaimana saya dapat mengatasi gejala depresi?
+DEBUG - 2025-05-26 13:54:45 --> Flask API response code: 0
+DEBUG - 2025-05-26 13:54:45 --> Flask API response: 
+DEBUG - 2025-05-26 13:54:45 --> Flask API error (if any): Operation timed out after 30002 milliseconds with 0 bytes received
+INFO - 2025-05-26 14:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 14:14:08 --> Sending message to Flask API: Bagaimana saya dapat mengatasi gejala depresi?
+DEBUG - 2025-05-26 14:14:38 --> Flask API response code: 0
+DEBUG - 2025-05-26 14:14:38 --> Flask API response: 
+DEBUG - 2025-05-26 14:14:38 --> Flask API error (if any): Operation timed out after 30004 milliseconds with 0 bytes received
+INFO - 2025-05-26 14:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 14:21:08 --> Sending message to Flask API: Bagaimana saya dapat mengatasi gejala depresi?
+DEBUG - 2025-05-26 14:21:38 --> Flask API response code: 0
+DEBUG - 2025-05-26 14:21:38 --> Flask API response: 
+DEBUG - 2025-05-26 14:21:38 --> Flask API error (if any): Operation timed out after 30002 milliseconds with 0 bytes received

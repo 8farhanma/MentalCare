@@ -1,0 +1,1336 @@
+INFO - 2024-12-12 02:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 02:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 02:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 02:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 02:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-12 02:57:01 --> Selected Gejala: Array
+(
+    [0] => 12
+    [1] => 16
+)
+
+DEBUG - 2024-12-12 02:57:01 --> List CF: Array
+(
+    [0] => 2
+    [1] => 4
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Merged Data CF: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 12
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 16
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf_user] => 0.6
+        )
+
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Checking relation for gejala 12: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 37
+            [id_penyakit] => 1
+            [id_gejala] => 12
+            [mb] => 0.5
+            [md] => 0
+            [cf] => 0.5
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 38
+            [id_penyakit] => 3
+            [id_gejala] => 12
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 39
+            [id_penyakit] => 5
+            [id_gejala] => 12
+            [mb] => 0.6
+            [md] => 0
+            [cf] => 0.6
+        )
+
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 1
+    [kode_penyakit] => P01
+    [nama_penyakit] => Mild Major Depressive Disorder (Ringan)
+    [deskripsi_penyakit] => Mild Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang lebih ringan dibandingkan dengan tingkat yang lebih
+                parah. Pada tingkat ini, gejala depresi biasanya memengaruhi kehidupan
+                sehari-hari, namun individu masih dapat menjalani aktivitas sehari-hari
+                dengan tingkat fungsionalitas yang relatif normal.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Major Depressive Disorder melibatkan kombinasi terapi kognitif perilaku (CBT), terapi dukungan, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengubah pola pikir negatif menjadi pola pikir yang lebih adaptif dan positif. Terapi dukungan, seperti terapi interpersonal atau kelompok dukungan, dapat memberikan wadah untuk berbagi pengalaman dan mendapatkan dukungan emosional dari orang-orang terdekat. Selain itu, menjaga pola tidur yang teratur, mengadopsi pola makan sehat, dan berpartisipasi dalam kegiatan fisik yang memadai juga penting untuk meningkatkan kesejahteraan mental dan mengurangi gejala depresi pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Added to CF array: Array
+(
+    [id_gejala] => 12
+    [kode_gejala] => G12
+    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.5
+    [nilai_cf] => 0.1
+    [id_penyakit] => 1
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Added to CF array: Array
+(
+    [id_gejala] => 12
+    [kode_gejala] => G12
+    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.8
+    [nilai_cf] => 0.16
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Added to CF array: Array
+(
+    [id_gejala] => 12
+    [kode_gejala] => G12
+    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.6
+    [nilai_cf] => 0.12
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Checking relation for gejala 16: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 5
+            [id_penyakit] => 2
+            [id_gejala] => 16
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 31
+            [id_penyakit] => 6
+            [id_gejala] => 16
+            [mb] => 0.6
+            [md] => 0
+            [cf] => 0.6
+        )
+
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 2
+    [kode_penyakit] => P02
+    [nama_penyakit] => Mild Persistent Depressive Disorder (Dysthymia Ringan)
+    [deskripsi_penyakit] => Mild Persistent Depressive Disorder (Dysthymia) mengacu pada tingkat
+                yang lebih ringan dari Dysthymia. Pada tingkat ini, gejala depresi ada dan
+                terjadi secara terus-menerus selama setidaknya dua tahun, tetapi gejalanya
+                cenderung lebih ringan dan dapat dikelola dengan lebih baik dibandingkan
+                dengan tingkat yang lebih parah.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Persistent Depressive Disorder (Dysthymia) meliputi terapi kognitif perilaku (CBT), dukungan sosial, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengidentifikasi pola pikir negatif dan mengembangkan strategi untuk mengubahnya menjadi pola pikir yang lebih positif. Dukungan sosial dari keluarga, teman, atau kelompok dukungan dapat memberikan dukungan emosional dan praktis dalam menghadapi gejala dysthymia. Perubahan gaya hidup sehat, seperti menjaga pola tidur yang teratur, menerapkan kegiatan fisik yang memadai, dan mengelola stres, juga penting untuk mengelola gejala dysthymia pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Added to CF array: Array
+(
+    [id_gejala] => 16
+    [kode_gejala] => G16
+    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.9
+    [nilai_cf] => 0.54
+    [id_penyakit] => 2
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 6
+    [kode_penyakit] => P06
+    [nama_penyakit] => Severe Persistent Depressive Disorder (Dysthymia Parah)
+    [deskripsi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) adalah tingkat
+                Dysthymia yang memiliki gejala yang sangat parah dan menghambat. Pada
+                tingkat ini, gejala depresi yang berat dan terus-menerus mengganggu
+                fungsionalitas individu secara signifikan dalam berbagai aspek kehidupan,
+                termasuk pekerjaan, hubungan, dan kesejahteraan umum.
+    [solusi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) yang parah membutuhkan penanganan yang tepat, seperti konseling psikoterapi, terapi obat, atau terapi gabungan. Dukungan sosial dan pengelolaan stres yang sehat juga penting. Perubahan gaya hidup sehat, seperti tidur yang cukup, pola makan sehat, dan kegiatan fisik yang memadai, juga dapat membantu. Konsultasikan dengan profesional medis atau psikolog untuk mendapatkan penanganan yang sesuai dengan kebutuhan individu.
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Added to CF array: Array
+(
+    [id_gejala] => 16
+    [kode_gejala] => G16
+    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+    [tingkat_kepercayaan] => Kemungkinan Besar
+    [cf] => 0.6
+    [nilai_cf] => 0.36
+    [id_penyakit] => 6
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Final CF Array: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 12
+            [kode_gejala] => G12
+            [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.5
+            [nilai_cf] => 0.1
+            [id_penyakit] => 1
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 12
+            [kode_gejala] => G12
+            [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.8
+            [nilai_cf] => 0.16
+            [id_penyakit] => 3
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 12
+            [kode_gejala] => G12
+            [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.6
+            [nilai_cf] => 0.12
+            [id_penyakit] => 5
+        )
+
+    [3] => Array
+        (
+            [id_gejala] => 16
+            [kode_gejala] => G16
+            [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.9
+            [nilai_cf] => 0.54
+            [id_penyakit] => 2
+        )
+
+    [4] => Array
+        (
+            [id_gejala] => 16
+            [kode_gejala] => G16
+            [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+            [tingkat_kepercayaan] => Kemungkinan Besar
+            [cf] => 0.6
+            [nilai_cf] => 0.36
+            [id_penyakit] => 6
+        )
+
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Grouped By Penyakit: Array
+(
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 12
+                    [kode_gejala] => G12
+                    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.5
+                    [nilai_cf] => 0.1
+                    [id_penyakit] => 1
+                )
+
+        )
+
+    [3] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 12
+                    [kode_gejala] => G12
+                    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.16
+                    [id_penyakit] => 3
+                )
+
+        )
+
+    [5] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 12
+                    [kode_gejala] => G12
+                    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.6
+                    [nilai_cf] => 0.12
+                    [id_penyakit] => 5
+                )
+
+        )
+
+    [2] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 16
+                    [kode_gejala] => G16
+                    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.9
+                    [nilai_cf] => 0.54
+                    [id_penyakit] => 2
+                )
+
+        )
+
+    [6] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 16
+                    [kode_gejala] => G16
+                    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+                    [tingkat_kepercayaan] => Kemungkinan Besar
+                    [cf] => 0.6
+                    [nilai_cf] => 0.36
+                    [id_penyakit] => 6
+                )
+
+        )
+
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Isi array $new: Array
+(
+    [0] => Array
+        (
+            [id_penyakit] => 1
+            [nilai_cf] => 0.1
+        )
+
+    [1] => Array
+        (
+            [id_penyakit] => 3
+            [nilai_cf] => 0.16
+        )
+
+    [2] => Array
+        (
+            [id_penyakit] => 5
+            [nilai_cf] => 0.12
+        )
+
+    [3] => Array
+        (
+            [id_penyakit] => 2
+            [nilai_cf] => 0.54
+        )
+
+    [4] => Array
+        (
+            [id_penyakit] => 6
+            [nilai_cf] => 0.36
+        )
+
+)
+
+DEBUG - 2024-12-12 02:57:01 --> Max CF Value: 0.54
+DEBUG - 2024-12-12 02:57:01 --> ID Penyakit Terbesar: 2
+DEBUG - 2024-12-12 02:57:01 --> Penyakit Data: Array
+(
+    [id_penyakit] => 2
+    [kode_penyakit] => P02
+    [nama_penyakit] => Mild Persistent Depressive Disorder (Dysthymia Ringan)
+    [deskripsi_penyakit] => Mild Persistent Depressive Disorder (Dysthymia) mengacu pada tingkat
+                yang lebih ringan dari Dysthymia. Pada tingkat ini, gejala depresi ada dan
+                terjadi secara terus-menerus selama setidaknya dua tahun, tetapi gejalanya
+                cenderung lebih ringan dan dapat dikelola dengan lebih baik dibandingkan
+                dengan tingkat yang lebih parah.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Persistent Depressive Disorder (Dysthymia) meliputi terapi kognitif perilaku (CBT), dukungan sosial, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengidentifikasi pola pikir negatif dan mengembangkan strategi untuk mengubahnya menjadi pola pikir yang lebih positif. Dukungan sosial dari keluarga, teman, atau kelompok dukungan dapat memberikan dukungan emosional dan praktis dalam menghadapi gejala dysthymia. Perubahan gaya hidup sehat, seperti menjaga pola tidur yang teratur, menerapkan kegiatan fisik yang memadai, dan mengelola stres, juga penting untuk mengelola gejala dysthymia pada tingkat yang lebih ringan.
+)
+
+INFO - 2024-12-12 02:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 02:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 03:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-12 04:56:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sispasi_improve', 3306, '', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\Home.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\Home.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-12 04:56:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_faq`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-12 04:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 04:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 06:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 07:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 07:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 07:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 07:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 07:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 07:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 07:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-12 07:16:31 --> Selected Gejala: Array
+(
+    [0] => 12
+    [1] => 16
+)
+
+DEBUG - 2024-12-12 07:16:31 --> List CF: Array
+(
+    [0] => 2
+    [1] => 2
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Merged Data CF: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 12
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 16
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+        )
+
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Checking relation for gejala 12: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 37
+            [id_penyakit] => 1
+            [id_gejala] => 12
+            [mb] => 0.5
+            [md] => 0
+            [cf] => 0.5
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 38
+            [id_penyakit] => 3
+            [id_gejala] => 12
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 39
+            [id_penyakit] => 5
+            [id_gejala] => 12
+            [mb] => 0.6
+            [md] => 0
+            [cf] => 0.6
+        )
+
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 1
+    [kode_penyakit] => P01
+    [nama_penyakit] => Mild Major Depressive Disorder (Ringan)
+    [deskripsi_penyakit] => Mild Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang lebih ringan dibandingkan dengan tingkat yang lebih
+                parah. Pada tingkat ini, gejala depresi biasanya memengaruhi kehidupan
+                sehari-hari, namun individu masih dapat menjalani aktivitas sehari-hari
+                dengan tingkat fungsionalitas yang relatif normal.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Major Depressive Disorder melibatkan kombinasi terapi kognitif perilaku (CBT), terapi dukungan, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengubah pola pikir negatif menjadi pola pikir yang lebih adaptif dan positif. Terapi dukungan, seperti terapi interpersonal atau kelompok dukungan, dapat memberikan wadah untuk berbagi pengalaman dan mendapatkan dukungan emosional dari orang-orang terdekat. Selain itu, menjaga pola tidur yang teratur, mengadopsi pola makan sehat, dan berpartisipasi dalam kegiatan fisik yang memadai juga penting untuk meningkatkan kesejahteraan mental dan mengurangi gejala depresi pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Added to CF array: Array
+(
+    [id_gejala] => 12
+    [kode_gejala] => G12
+    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.5
+    [nilai_cf] => 0.1
+    [id_penyakit] => 1
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Added to CF array: Array
+(
+    [id_gejala] => 12
+    [kode_gejala] => G12
+    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.8
+    [nilai_cf] => 0.16
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Added to CF array: Array
+(
+    [id_gejala] => 12
+    [kode_gejala] => G12
+    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.6
+    [nilai_cf] => 0.12
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Checking relation for gejala 16: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 5
+            [id_penyakit] => 2
+            [id_gejala] => 16
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 31
+            [id_penyakit] => 6
+            [id_gejala] => 16
+            [mb] => 0.6
+            [md] => 0
+            [cf] => 0.6
+        )
+
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 2
+    [kode_penyakit] => P02
+    [nama_penyakit] => Mild Persistent Depressive Disorder (Dysthymia Ringan)
+    [deskripsi_penyakit] => Mild Persistent Depressive Disorder (Dysthymia) mengacu pada tingkat
+                yang lebih ringan dari Dysthymia. Pada tingkat ini, gejala depresi ada dan
+                terjadi secara terus-menerus selama setidaknya dua tahun, tetapi gejalanya
+                cenderung lebih ringan dan dapat dikelola dengan lebih baik dibandingkan
+                dengan tingkat yang lebih parah.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Persistent Depressive Disorder (Dysthymia) meliputi terapi kognitif perilaku (CBT), dukungan sosial, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengidentifikasi pola pikir negatif dan mengembangkan strategi untuk mengubahnya menjadi pola pikir yang lebih positif. Dukungan sosial dari keluarga, teman, atau kelompok dukungan dapat memberikan dukungan emosional dan praktis dalam menghadapi gejala dysthymia. Perubahan gaya hidup sehat, seperti menjaga pola tidur yang teratur, menerapkan kegiatan fisik yang memadai, dan mengelola stres, juga penting untuk mengelola gejala dysthymia pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Added to CF array: Array
+(
+    [id_gejala] => 16
+    [kode_gejala] => G16
+    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.9
+    [nilai_cf] => 0.18
+    [id_penyakit] => 2
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 6
+    [kode_penyakit] => P06
+    [nama_penyakit] => Severe Persistent Depressive Disorder (Dysthymia Parah)
+    [deskripsi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) adalah tingkat
+                Dysthymia yang memiliki gejala yang sangat parah dan menghambat. Pada
+                tingkat ini, gejala depresi yang berat dan terus-menerus mengganggu
+                fungsionalitas individu secara signifikan dalam berbagai aspek kehidupan,
+                termasuk pekerjaan, hubungan, dan kesejahteraan umum.
+    [solusi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) yang parah membutuhkan penanganan yang tepat, seperti konseling psikoterapi, terapi obat, atau terapi gabungan. Dukungan sosial dan pengelolaan stres yang sehat juga penting. Perubahan gaya hidup sehat, seperti tidur yang cukup, pola makan sehat, dan kegiatan fisik yang memadai, juga dapat membantu. Konsultasikan dengan profesional medis atau psikolog untuk mendapatkan penanganan yang sesuai dengan kebutuhan individu.
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Added to CF array: Array
+(
+    [id_gejala] => 16
+    [kode_gejala] => G16
+    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.6
+    [nilai_cf] => 0.12
+    [id_penyakit] => 6
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Final CF Array: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 12
+            [kode_gejala] => G12
+            [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.5
+            [nilai_cf] => 0.1
+            [id_penyakit] => 1
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 12
+            [kode_gejala] => G12
+            [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.8
+            [nilai_cf] => 0.16
+            [id_penyakit] => 3
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 12
+            [kode_gejala] => G12
+            [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.6
+            [nilai_cf] => 0.12
+            [id_penyakit] => 5
+        )
+
+    [3] => Array
+        (
+            [id_gejala] => 16
+            [kode_gejala] => G16
+            [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.9
+            [nilai_cf] => 0.18
+            [id_penyakit] => 2
+        )
+
+    [4] => Array
+        (
+            [id_gejala] => 16
+            [kode_gejala] => G16
+            [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.6
+            [nilai_cf] => 0.12
+            [id_penyakit] => 6
+        )
+
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Grouped By Penyakit: Array
+(
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 12
+                    [kode_gejala] => G12
+                    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.5
+                    [nilai_cf] => 0.1
+                    [id_penyakit] => 1
+                )
+
+        )
+
+    [3] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 12
+                    [kode_gejala] => G12
+                    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.16
+                    [id_penyakit] => 3
+                )
+
+        )
+
+    [5] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 12
+                    [kode_gejala] => G12
+                    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.6
+                    [nilai_cf] => 0.12
+                    [id_penyakit] => 5
+                )
+
+        )
+
+    [2] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 16
+                    [kode_gejala] => G16
+                    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.9
+                    [nilai_cf] => 0.18
+                    [id_penyakit] => 2
+                )
+
+        )
+
+    [6] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 16
+                    [kode_gejala] => G16
+                    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.6
+                    [nilai_cf] => 0.12
+                    [id_penyakit] => 6
+                )
+
+        )
+
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Isi array $new: Array
+(
+    [0] => Array
+        (
+            [id_penyakit] => 1
+            [nilai_cf] => 0.1
+        )
+
+    [1] => Array
+        (
+            [id_penyakit] => 3
+            [nilai_cf] => 0.16
+        )
+
+    [2] => Array
+        (
+            [id_penyakit] => 5
+            [nilai_cf] => 0.12
+        )
+
+    [3] => Array
+        (
+            [id_penyakit] => 2
+            [nilai_cf] => 0.18
+        )
+
+    [4] => Array
+        (
+            [id_penyakit] => 6
+            [nilai_cf] => 0.12
+        )
+
+)
+
+DEBUG - 2024-12-12 07:16:31 --> Max CF Value: 0.18
+DEBUG - 2024-12-12 07:16:31 --> ID Penyakit Terbesar: 2
+DEBUG - 2024-12-12 07:16:31 --> Penyakit Data: Array
+(
+    [id_penyakit] => 2
+    [kode_penyakit] => P02
+    [nama_penyakit] => Mild Persistent Depressive Disorder (Dysthymia Ringan)
+    [deskripsi_penyakit] => Mild Persistent Depressive Disorder (Dysthymia) mengacu pada tingkat
+                yang lebih ringan dari Dysthymia. Pada tingkat ini, gejala depresi ada dan
+                terjadi secara terus-menerus selama setidaknya dua tahun, tetapi gejalanya
+                cenderung lebih ringan dan dapat dikelola dengan lebih baik dibandingkan
+                dengan tingkat yang lebih parah.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Persistent Depressive Disorder (Dysthymia) meliputi terapi kognitif perilaku (CBT), dukungan sosial, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengidentifikasi pola pikir negatif dan mengembangkan strategi untuk mengubahnya menjadi pola pikir yang lebih positif. Dukungan sosial dari keluarga, teman, atau kelompok dukungan dapat memberikan dukungan emosional dan praktis dalam menghadapi gejala dysthymia. Perubahan gaya hidup sehat, seperti menjaga pola tidur yang teratur, menerapkan kegiatan fisik yang memadai, dan mengelola stres, juga penting untuk mengelola gejala dysthymia pada tingkat yang lebih ringan.
+)
+
+INFO - 2024-12-12 07:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-12 07:17:48 --> Selected Gejala: Array
+(
+    [0] => 12
+    [1] => 16
+)
+
+DEBUG - 2024-12-12 07:17:48 --> List CF: Array
+(
+    [0] => 2
+    [1] => 2
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Merged Data CF: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 12
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 16
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf_user] => 0.2
+        )
+
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Checking relation for gejala 12: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 37
+            [id_penyakit] => 1
+            [id_gejala] => 12
+            [mb] => 0.5
+            [md] => 0
+            [cf] => 0.5
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 38
+            [id_penyakit] => 3
+            [id_gejala] => 12
+            [mb] => 0.8
+            [md] => 0
+            [cf] => 0.8
+        )
+
+    [2] => Array
+        (
+            [id_aturan] => 39
+            [id_penyakit] => 5
+            [id_gejala] => 12
+            [mb] => 0.6
+            [md] => 0
+            [cf] => 0.6
+        )
+
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 1
+    [kode_penyakit] => P01
+    [nama_penyakit] => Mild Major Depressive Disorder (Ringan)
+    [deskripsi_penyakit] => Mild Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang lebih ringan dibandingkan dengan tingkat yang lebih
+                parah. Pada tingkat ini, gejala depresi biasanya memengaruhi kehidupan
+                sehari-hari, namun individu masih dapat menjalani aktivitas sehari-hari
+                dengan tingkat fungsionalitas yang relatif normal.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Major Depressive Disorder melibatkan kombinasi terapi kognitif perilaku (CBT), terapi dukungan, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengubah pola pikir negatif menjadi pola pikir yang lebih adaptif dan positif. Terapi dukungan, seperti terapi interpersonal atau kelompok dukungan, dapat memberikan wadah untuk berbagi pengalaman dan mendapatkan dukungan emosional dari orang-orang terdekat. Selain itu, menjaga pola tidur yang teratur, mengadopsi pola makan sehat, dan berpartisipasi dalam kegiatan fisik yang memadai juga penting untuk meningkatkan kesejahteraan mental dan mengurangi gejala depresi pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Added to CF array: Array
+(
+    [id_gejala] => 12
+    [kode_gejala] => G12
+    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.5
+    [nilai_cf] => 0.1
+    [id_penyakit] => 1
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 3
+    [kode_penyakit] => P03
+    [nama_penyakit] => Moderate Major Depressive Disorder (Sedang)
+    [deskripsi_penyakit] => Moderate Major Depressive Disorder mengacu pada tingkat depresi mayor
+                yang memiliki gejala sedang. Pada tingkat ini, gejala depresi dapat lebih
+                mengganggu kehidupan sehari-hari individu dan mempengaruhi
+                fungsionalitas mereka dalam berbagai bidang, seperti pekerjaan, hubungan,
+                atau aktivitas sosial.
+    [solusi_penyakit] => Solusi penanganan untuk Moderate Major Depressive Disorder melibatkan pendekatan terapi kombinasi yang mencakup terapi kognitif perilaku (CBT), terapi interpersonal, dan mungkin juga penggunaan obat antidepresan yang diresepkan oleh dokter. Terapi kognitif perilaku membantu individu mengidentifikasi dan mengubah pola pikir negatif yang mendasari depresi, sedangkan terapi interpersonal fokus pada perbaikan hubungan dan interaksi sosial. Penggunaan obat antidepresan dapat membantu mengurangi gejala depresi. Dalam kombinasi dengan dukungan sosial dan perubahan gaya hidup sehat, seperti menjaga rutinitas tidur yang teratur, pola makan sehat, dan olahraga, solusi penanganan tersebut bertujuan untuk memperbaiki kesejahteraan mental individu dan membantu mereka mengatasi gejala depresi yang sedang.
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Added to CF array: Array
+(
+    [id_gejala] => 12
+    [kode_gejala] => G12
+    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.8
+    [nilai_cf] => 0.16
+    [id_penyakit] => 3
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 5
+    [kode_penyakit] => P05
+    [nama_penyakit] => Severe Major Depressive Disorder (Parah)
+    [deskripsi_penyakit] => Severe Major Depressive Disorder adalah tingkat depresi mayor yang
+                memiliki gejala yang sangat parah dan mengganggu. Pada tingkat ini, gejala
+                depresi sangat menghambat individu dalam menjalani kehidupan seharihari. Mereka mungkin mengalami kesulitan dalam menjalankan tugas-tugas
+                rutin, berinteraksi dengan orang lain, atau bahkan memiliki pemikiran atau
+                perilaku yang berpotensi merugikan diri sendiri.
+    [solusi_penyakit] => Solusi penanganan untuk Severe Major Depressive Disorder yang parah meliputi kombinasi konseling terapi psikologis, pengobatan dengan obat antidepresan yang diresepkan oleh dokter, dan dukungan sosial yang kuat. Terapi kognitif perilaku dan terapi interpersonal dapat membantu individu mengatasi gejala depresi dan mengembangkan strategi penanganan yang efektif. Penting juga untuk melibatkan keluarga dan teman-teman dalam proses pemulihan serta memonitor dan mengurangi risiko perilaku yang merugikan diri sendiri melalui perawatan yang tepat dan pengawasan yang ketat.
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Added to CF array: Array
+(
+    [id_gejala] => 12
+    [kode_gejala] => G12
+    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.6
+    [nilai_cf] => 0.12
+    [id_penyakit] => 5
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Checking relation for gejala 16: Array
+(
+    [0] => Array
+        (
+            [id_aturan] => 5
+            [id_penyakit] => 2
+            [id_gejala] => 16
+            [mb] => 0.9
+            [md] => 0
+            [cf] => 0.9
+        )
+
+    [1] => Array
+        (
+            [id_aturan] => 31
+            [id_penyakit] => 6
+            [id_gejala] => 16
+            [mb] => 0.6
+            [md] => 0
+            [cf] => 0.6
+        )
+
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 2
+    [kode_penyakit] => P02
+    [nama_penyakit] => Mild Persistent Depressive Disorder (Dysthymia Ringan)
+    [deskripsi_penyakit] => Mild Persistent Depressive Disorder (Dysthymia) mengacu pada tingkat
+                yang lebih ringan dari Dysthymia. Pada tingkat ini, gejala depresi ada dan
+                terjadi secara terus-menerus selama setidaknya dua tahun, tetapi gejalanya
+                cenderung lebih ringan dan dapat dikelola dengan lebih baik dibandingkan
+                dengan tingkat yang lebih parah.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Persistent Depressive Disorder (Dysthymia) meliputi terapi kognitif perilaku (CBT), dukungan sosial, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengidentifikasi pola pikir negatif dan mengembangkan strategi untuk mengubahnya menjadi pola pikir yang lebih positif. Dukungan sosial dari keluarga, teman, atau kelompok dukungan dapat memberikan dukungan emosional dan praktis dalam menghadapi gejala dysthymia. Perubahan gaya hidup sehat, seperti menjaga pola tidur yang teratur, menerapkan kegiatan fisik yang memadai, dan mengelola stres, juga penting untuk mengelola gejala dysthymia pada tingkat yang lebih ringan.
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Added to CF array: Array
+(
+    [id_gejala] => 16
+    [kode_gejala] => G16
+    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.9
+    [nilai_cf] => 0.18
+    [id_penyakit] => 2
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Found penyakit for relation: Array
+(
+    [id_penyakit] => 6
+    [kode_penyakit] => P06
+    [nama_penyakit] => Severe Persistent Depressive Disorder (Dysthymia Parah)
+    [deskripsi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) adalah tingkat
+                Dysthymia yang memiliki gejala yang sangat parah dan menghambat. Pada
+                tingkat ini, gejala depresi yang berat dan terus-menerus mengganggu
+                fungsionalitas individu secara signifikan dalam berbagai aspek kehidupan,
+                termasuk pekerjaan, hubungan, dan kesejahteraan umum.
+    [solusi_penyakit] => Severe Persistent Depressive Disorder (Dysthymia) yang parah membutuhkan penanganan yang tepat, seperti konseling psikoterapi, terapi obat, atau terapi gabungan. Dukungan sosial dan pengelolaan stres yang sehat juga penting. Perubahan gaya hidup sehat, seperti tidur yang cukup, pola makan sehat, dan kegiatan fisik yang memadai, juga dapat membantu. Konsultasikan dengan profesional medis atau psikolog untuk mendapatkan penanganan yang sesuai dengan kebutuhan individu.
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Added to CF array: Array
+(
+    [id_gejala] => 16
+    [kode_gejala] => G16
+    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+    [tingkat_kepercayaan] => Tidak Yakin
+    [cf] => 0.6
+    [nilai_cf] => 0.12
+    [id_penyakit] => 6
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Final CF Array: Array
+(
+    [0] => Array
+        (
+            [id_gejala] => 12
+            [kode_gejala] => G12
+            [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.5
+            [nilai_cf] => 0.1
+            [id_penyakit] => 1
+        )
+
+    [1] => Array
+        (
+            [id_gejala] => 12
+            [kode_gejala] => G12
+            [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.8
+            [nilai_cf] => 0.16
+            [id_penyakit] => 3
+        )
+
+    [2] => Array
+        (
+            [id_gejala] => 12
+            [kode_gejala] => G12
+            [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.6
+            [nilai_cf] => 0.12
+            [id_penyakit] => 5
+        )
+
+    [3] => Array
+        (
+            [id_gejala] => 16
+            [kode_gejala] => G16
+            [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.9
+            [nilai_cf] => 0.18
+            [id_penyakit] => 2
+        )
+
+    [4] => Array
+        (
+            [id_gejala] => 16
+            [kode_gejala] => G16
+            [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+            [tingkat_kepercayaan] => Tidak Yakin
+            [cf] => 0.6
+            [nilai_cf] => 0.12
+            [id_penyakit] => 6
+        )
+
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Grouped By Penyakit: Array
+(
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 12
+                    [kode_gejala] => G12
+                    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.5
+                    [nilai_cf] => 0.1
+                    [id_penyakit] => 1
+                )
+
+        )
+
+    [3] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 12
+                    [kode_gejala] => G12
+                    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.8
+                    [nilai_cf] => 0.16
+                    [id_penyakit] => 3
+                )
+
+        )
+
+    [5] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 12
+                    [kode_gejala] => G12
+                    [nama_gejala] => Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.6
+                    [nilai_cf] => 0.12
+                    [id_penyakit] => 5
+                )
+
+        )
+
+    [2] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 16
+                    [kode_gejala] => G16
+                    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.9
+                    [nilai_cf] => 0.18
+                    [id_penyakit] => 2
+                )
+
+        )
+
+    [6] => Array
+        (
+            [0] => Array
+                (
+                    [id_gejala] => 16
+                    [kode_gejala] => G16
+                    [nama_gejala] => Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari
+                    [tingkat_kepercayaan] => Tidak Yakin
+                    [cf] => 0.6
+                    [nilai_cf] => 0.12
+                    [id_penyakit] => 6
+                )
+
+        )
+
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Isi array $new: Array
+(
+    [0] => Array
+        (
+            [id_penyakit] => 1
+            [nilai_cf] => 0.1
+        )
+
+    [1] => Array
+        (
+            [id_penyakit] => 3
+            [nilai_cf] => 0.16
+        )
+
+    [2] => Array
+        (
+            [id_penyakit] => 5
+            [nilai_cf] => 0.12
+        )
+
+    [3] => Array
+        (
+            [id_penyakit] => 2
+            [nilai_cf] => 0.18
+        )
+
+    [4] => Array
+        (
+            [id_penyakit] => 6
+            [nilai_cf] => 0.12
+        )
+
+)
+
+DEBUG - 2024-12-12 07:17:48 --> Max CF Value: 0.18
+DEBUG - 2024-12-12 07:17:48 --> ID Penyakit Terbesar: 2
+DEBUG - 2024-12-12 07:17:48 --> Penyakit Data: Array
+(
+    [id_penyakit] => 2
+    [kode_penyakit] => P02
+    [nama_penyakit] => Mild Persistent Depressive Disorder (Dysthymia Ringan)
+    [deskripsi_penyakit] => Mild Persistent Depressive Disorder (Dysthymia) mengacu pada tingkat
+                yang lebih ringan dari Dysthymia. Pada tingkat ini, gejala depresi ada dan
+                terjadi secara terus-menerus selama setidaknya dua tahun, tetapi gejalanya
+                cenderung lebih ringan dan dapat dikelola dengan lebih baik dibandingkan
+                dengan tingkat yang lebih parah.
+    [solusi_penyakit] => Solusi penanganan untuk Mild Persistent Depressive Disorder (Dysthymia) meliputi terapi kognitif perilaku (CBT), dukungan sosial, dan perubahan gaya hidup sehat. Terapi kognitif perilaku membantu individu mengidentifikasi pola pikir negatif dan mengembangkan strategi untuk mengubahnya menjadi pola pikir yang lebih positif. Dukungan sosial dari keluarga, teman, atau kelompok dukungan dapat memberikan dukungan emosional dan praktis dalam menghadapi gejala dysthymia. Perubahan gaya hidup sehat, seperti menjaga pola tidur yang teratur, menerapkan kegiatan fisik yang memadai, dan mengelola stres, juga penting untuk mengelola gejala dysthymia pada tingkat yang lebih ringan.
+)
+
+INFO - 2024-12-12 07:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 07:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 07:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 08:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 09:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 13:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 13:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-12 13:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

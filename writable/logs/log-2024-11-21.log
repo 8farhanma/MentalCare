@@ -1,0 +1,641 @@
+CRITICAL - 2024-11-21 05:42:02 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(InvalidArgumentException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-11-21 05:48:43 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(InvalidArgumentException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-11-21 05:49:05 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(InvalidArgumentException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 05:51:09 --> mysqli_sql_exception: Unknown column 'cf' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 05:51:09 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 05:53:08 --> mysqli_sql_exception: Unknown column 'cf' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 05:53:08 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 05:53:29 --> mysqli_sql_exception: Unknown column 'cf' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 05:53:29 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 05:56:30 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'sispasi_improve' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sispasi_improve', 3306, '', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'sispasi_improve' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 05:56:30 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Migrate.php(98): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:00:30 --> mysqli_sql_exception: Unknown column 'cf' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 06:00:30 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:03:50 --> mysqli_sql_exception: Unknown column 'cf' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(56): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2024-11-21 06:03:50 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:04:02 --> mysqli_sql_exception: Unknown column 'cf' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(56): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2024-11-21 06:04:02 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:05:19 --> mysqli_sql_exception: Unknown column 'cf' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 06:05:19 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:05:36 --> mysqli_sql_exception: Unknown column 'cf' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 06:05:36 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:10:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sispasi_improve`.`tbl_aturan`, CONSTRAINT `tbl_aturan_id_penyakit_foreign` FOREIGN KEY (`id_penyakit`) REFERENCES `tbl_penyakit` (`id_penyakit`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 06:10:01 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:11:49 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sispasi_improve`.`tbl_aturan`, CONSTRAINT `tbl_aturan_id_penyakit_foreign` FOREIGN KEY (`id_penyakit`) REFERENCES `tbl_penyakit` (`id_penyakit`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 06:11:49 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:30:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sispasi_improve`.`tbl_aturan`, CONSTRAINT `tbl_aturan_id_penyakit_foreign` FOREIGN KEY (`id_penyakit`) REFERENCES `tbl_penyakit` (`id_penyakit`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 06:30:42 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:40:21 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sispasi_improve`.`tbl_aturan`, CONSTRAINT `tbl_aturan_id_penyakit_foreign` FOREIGN KEY (`id_penyakit`) REFERENCES `tbl_penyakit` (`id_penyakit`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 06:40:21 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:41:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sispasi_improve`.`tbl_aturan`, CONSTRAINT `tbl_aturan_id_penyakit_foreign` FOREIGN KEY (`id_penyakit`) REFERENCES `tbl_penyakit` (`id_penyakit`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 06:41:04 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-11-21 06:41:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sispasi_improve`.`tbl_aturan`, CONSTRAINT `tbl_aturan_id_penyakit_foreign` FOREIGN KEY (`id_penyakit`) REFERENCES `tbl_penyakit` (`id_penyakit`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\AturanSeeder.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\AturanSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-11-21 06:41:38 --> require(C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 127.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 127)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(127): require()
+ 3 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+INFO - 2024-11-21 07:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 07:38:54 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-21 07:38:54 --> syntax error, unexpected token "<<", expecting end of file
+【Previous Exception】
+ParseError
+syntax error, unexpected token ")", expecting ";"
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-projec...')
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(890): class_exists('\\App\\Controller...', true)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-21 07:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 07:40:48 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-21 07:40:48 --> syntax error, unexpected token "<"
+【Previous Exception】
+ParseError
+syntax error, unexpected token ")", expecting ";"
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-projec...')
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(890): class_exists('\\App\\Controller...', true)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-21 07:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 07:42:09 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-21 07:42:09 --> syntax error, unexpected token "<"
+【Previous Exception】
+ParseError
+syntax error, unexpected token ")", expecting ";"
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-projec...')
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(890): class_exists('\\App\\Controller...', true)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-21 07:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 07:43:12 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-21 07:43:12 --> syntax error, unexpected token "<"
+【Previous Exception】
+ParseError
+syntax error, unexpected token ")", expecting ";"
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-projec...')
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(890): class_exists('\\App\\Controller...', true)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 239.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-21 07:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 07:43:14 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-21 07:43:14 --> syntax error, unexpected token "<"
+【Previous Exception】
+ParseError
+syntax error, unexpected token ")", expecting ";"
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-projec...')
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(890): class_exists('\\App\\Controller...', true)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 239.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-21 07:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 07:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 07:43:39 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-21 07:43:39 --> syntax error, unexpected token "<"
+【Previous Exception】
+ParseError
+syntax error, unexpected token ")", expecting ";"
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-projec...')
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(890): class_exists('\\App\\Controller...', true)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 239.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-21 07:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 07:47:40 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

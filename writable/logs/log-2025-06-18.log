@@ -1,0 +1,1179 @@
+INFO - 2025-06-18 00:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-18 00:11:00 --> Indonesian Question: Bisakah orang dengan penyakit mental pulih?
+DEBUG - 2025-06-18 00:11:00 --> Translated English Question: Can people with mental disease recover?
+DEBUG - 2025-06-18 00:11:48 --> Indonesian Question: Bisakah orang dengan gangguan mental bisa sembuh?
+DEBUG - 2025-06-18 00:11:48 --> Translated English Question: Can people with mental disorders be cured?
+DEBUG - 2025-06-18 00:16:04 --> Indonesian Question: Bisakah orang dengan penyakit mental pulih?
+DEBUG - 2025-06-18 00:16:04 --> Translated English Question: Can people with mental disease recover?
+CRITICAL - 2025-06-18 00:16:04 --> Undefined variable $normalize
+in APPPATH\Models\FaqChatbotModel.php on line 56.
+ 1 APPPATH\Models\FaqChatbotModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $normalize', 'C:\\xampp-pa\\htdocs\\MentalCare\\app\\Models\\FaqChatbotModel.php', 56)
+ 2 APPPATH\Controllers\MentalBot.php(62): App\Models\FaqChatbotModel->findAnswer('Can people with mental disease recover?')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MentalBot->ask()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MentalBot))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+DEBUG - 2025-06-18 00:17:52 --> Indonesian Question: Bisakah orang dengan penyakit mental pulih?
+DEBUG - 2025-06-18 00:17:52 --> Translated English Question: Can people with mental disease recover?
+DEBUG - 2025-06-18 00:18:36 --> Indonesian Question: Bisakah orang dengan gangguan mental bisa sembuh?
+DEBUG - 2025-06-18 00:18:36 --> Translated English Question: Can people with mental disorders be cured?
+DEBUG - 2025-06-18 00:21:09 --> Indonesian Question: Bisakah orang dengan penyakit mental pulih?
+DEBUG - 2025-06-18 00:21:09 --> Translated English Question: Can people with mental disease recover?
+DEBUG - 2025-06-18 00:22:40 --> Indonesian Question: Apa saja pilihan perawatan yang tersedia?
+DEBUG - 2025-06-18 00:22:40 --> Translated English Question: What are the available treatment options?
+DEBUG - 2025-06-18 00:24:20 --> Indonesian Question: Jika saya terlibat dalam perawatan, apa yang perlu saya ketahui?
+DEBUG - 2025-06-18 00:24:20 --> Translated English Question: If I am involved in treatment, what do I need to know?
+DEBUG - 2025-06-18 00:29:55 --> Indonesian Question: Bisakah orang dengan gangguan mental bisa sembuh?
+DEBUG - 2025-06-18 00:29:55 --> Translated English Question: Can people with mental disorders be cured?
+DEBUG - 2025-06-18 00:30:11 --> Indonesian Question: Jika saya terlibat dalam perawatan, apa yang perlu saya ketahui?
+DEBUG - 2025-06-18 00:30:11 --> Translated English Question: If I am involved in treatment, what do I need to know?
+DEBUG - 2025-06-18 00:32:06 --> Indonesian Question: Jika saya terlibat dalam perawatan, apa yang perlu saya ketahui?
+DEBUG - 2025-06-18 00:32:06 --> Translated English Question: If I am involved in treatment, what do I need to know?
+INFO - 2025-06-18 00:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 00:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 10:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 10:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 10:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 10:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-18 10:34:12 --> Indonesian Question: apa itu kesehatan mental?
+DEBUG - 2025-06-18 10:34:12 --> Translated English Question: What is mental health?
+DEBUG - 2025-06-18 10:34:37 --> Indonesian Question: apa itu gangguan mental?
+DEBUG - 2025-06-18 10:34:37 --> Translated English Question: What is a mental disorder?
+DEBUG - 2025-06-18 10:38:51 --> Indonesian Question: apa itu gangguan mental?
+DEBUG - 2025-06-18 10:38:51 --> Translated English Question: What is a mental disorder?
+DEBUG - 2025-06-18 10:42:43 --> Indonesian Question: apa itu depresi?
+DEBUG - 2025-06-18 10:42:43 --> Translated English Question: What is depression?
+DEBUG - 2025-06-18 10:46:06 --> Indonesian Question: bagaimana mengatasi depresi?
+DEBUG - 2025-06-18 10:46:06 --> Translated English Question: How to deal with depression?
+INFO - 2025-06-18 10:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 10:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 14:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 23:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 23:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 23:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 23:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 23:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 23:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:45:26 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.created_at' in 'field list' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:45:27 --> Unknown column 'tbl_diagnosis_gejala.created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:49:21 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:49:21 --> Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:49:25 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:49:25 --> Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:49:26 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:49:26 --> Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:49:27 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:49:27 --> Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:49:27 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:49:27 --> Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:49:27 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:49:27 --> Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:49:28 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:49:28 --> Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:49:28 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:49:28 --> Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:49:28 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:49:28 --> Unknown column 'tbl_diagnosis_gejala.id_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:50:59 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_diagnosis_gejala' in 'on clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:50:59 --> Unknown column 'tbl_diagnosis_gejala.id_diagnosis_gejala' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:51:00 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_diagnosis_gejala' in 'on clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:51:00 --> Unknown column 'tbl_diagnosis_gejala.id_diagnosis_gejala' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:51:00 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis_gejala.id_diagnosis_gejala' in 'on clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:51:00 --> Unknown column 'tbl_diagnosis_gejala.id_diagnosis_gejala' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:53:40 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis.id_diagnosis_gejala' in 'on clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:53:40 --> Unknown column 'tbl_diagnosis.id_diagnosis_gejala' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:53:43 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis.id_diagnosis_gejala' in 'on clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:53:43 --> Unknown column 'tbl_diagnosis.id_diagnosis_gejala' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:53:44 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis.id_diagnosis_gejala' in 'on clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:53:44 --> Unknown column 'tbl_diagnosis.id_diagnosis_gejala' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 23:53:44 --> mysqli_sql_exception: Unknown column 'tbl_diagnosis.id_diagnosis_gejala' in 'on clause' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-pa\htdocs\MentalCare\app\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-pa\htdocs\MentalCare\app\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+#10 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-pa\htdocs\MentalCare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htd...')
+#13 {main}
+CRITICAL - 2025-06-18 23:53:44 --> Unknown column 'tbl_diagnosis.id_diagnosis_gejala' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = \'4\'
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosis`.*, `tbl_penyakit`.`nama_penyakit`, `tbl_diagnosis_gejala`.`created_at` as `diagnosis_date`, `tbl_diagnosis`.`presentase` as `confidence_level`
+FROM `tbl_diagnosis`
+JOIN `tbl_diagnosis_gejala` ON `tbl_diagnosis_gejala`.`id_diagnosis_gejala` = `tbl_diagnosis`.`id_diagnosis_gejala`
+JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosis`.`id_penyakit`
+WHERE `tbl_diagnosis_gejala`.`id_user` = :tbl_diagnosis_gejala.id_user:
+AND `tbl_diagnosis`.`deleted_at` IS NULL
+ORDER BY `tbl_diagnosis_gejala`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DiagnosisModel.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MasterUserController.php(46): App\Models\DiagnosisModel->getDiagnosisHistoryByUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-18 23:54:30 --> Undefined array key "created_at"
+in APPPATH\Views\admin\master_user\show.php on line 27.
+ 1 APPPATH\Views\admin\master_user\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('admin/master_user/show', [], true)
+ 5 APPPATH\Controllers\MasterUserController.php(54): view('admin/master_user/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-18 23:54:31 --> Undefined array key "created_at"
+in APPPATH\Views\admin\master_user\show.php on line 27.
+ 1 APPPATH\Views\admin\master_user\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('admin/master_user/show', [], true)
+ 5 APPPATH\Controllers\MasterUserController.php(54): view('admin/master_user/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-18 23:54:31 --> Undefined array key "created_at"
+in APPPATH\Views\admin\master_user\show.php on line 27.
+ 1 APPPATH\Views\admin\master_user\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('admin/master_user/show', [], true)
+ 5 APPPATH\Controllers\MasterUserController.php(54): view('admin/master_user/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-18 23:56:09 --> Undefined array key "created_at"
+in APPPATH\Views\admin\master_user\show.php on line 27.
+ 1 APPPATH\Views\admin\master_user\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('admin/master_user/show', [], true)
+ 5 APPPATH\Controllers\MasterUserController.php(54): view('admin/master_user/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+INFO - 2025-06-18 23:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 23:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 23:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 23:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-18 23:56:20 --> Undefined array key "created_at"
+in APPPATH\Views\admin\master_user\show.php on line 27.
+ 1 APPPATH\Views\admin\master_user\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-pa\\htdocs\\MentalCare\\app\\Views\\admin\\master_user\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('admin/master_user/show', [], true)
+ 5 APPPATH\Controllers\MasterUserController.php(54): view('admin/master_user/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterUserController->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterUserController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp-pa\\htdocs\\MentalCare\\public\\index.php')
+ERROR - 2025-06-18 23:59:59 --> mysqli_sql_exception: Duplicate column name 'deleted_at' in C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('ALTER TABLE `tb...', 0)
+#1 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `tb...')
+#2 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `tb...')
+#3 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\Forge.php(745): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `tb...')
+#4 C:\xampp-pa\htdocs\MentalCare\app\Database\Migrations\2025-06-18-165835_AddTimestampsToUserTable.php(11): CodeIgniter\Database\Forge->addColumn('tbl_user', Array)
+#5 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddTimestampsToUserTable->up()
+#6 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp-pa\htdocs\MentalCare\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp-pa\htdocs\MentalCare\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}

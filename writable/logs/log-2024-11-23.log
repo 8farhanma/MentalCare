@@ -1,0 +1,2575 @@
+INFO - 2024-11-23 07:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 07:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 07:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 07:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 07:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 07:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 07:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 07:51:50 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 08:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 08:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 08:04:18 --> Undefined variable $cfUserId
+in APPPATH\Controllers\MasterDiagnosaController.php on line 60.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cfUserId', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 08:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 08:06:55 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 173.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 08:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 08:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 08:07:40 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 173.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 08:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 08:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 08:09:41 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 189.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(189): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 08:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 08:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 08:11:23 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\MasterDiagnosaController.php on line 197.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 08:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 08:13:41 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 199.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(199): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 08:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 08:13:46 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 199.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(199): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 08:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 08:14:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MasterDiagnosaController.php on line 221.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 221)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 08:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 08:14:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MasterDiagnosaController.php on line 221.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 221)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 10:16:23 --> Undefined variable $listGejala
+in APPPATH\Controllers\MasterDiagnosaController.php on line 320.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listGejala', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 320)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 10:17:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(339): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 10:17:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN :id_penyakit:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MasterDiagnosaController.php(339): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 10:23:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(339): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 10:23:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN :id_penyakit:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MasterDiagnosaController.php(339): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 10:24:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(339): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 10:24:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN :id_penyakit:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MasterDiagnosaController.php(339): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 10:25:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(339): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 10:25:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN :id_penyakit:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MasterDiagnosaController.php(339): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 10:27:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(344): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 10:27:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN :id_penyakit:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MasterDiagnosaController.php(344): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 10:29:05 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\MasterDiagnosaController.php on line 305.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-23 10:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 10:30:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(384): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 10:30:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN :id_penyakit:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MasterDiagnosaController.php(384): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 10:33:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(384): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 10:33:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN :id_penyakit:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MasterDiagnosaController.php(384): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 10:33:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(384): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 10:33:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_penyakit`
+WHERE `id_penyakit` IN :id_penyakit:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MasterDiagnosaController.php(384): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 10:36:39 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 4
+        )
+
+)
+
+DEBUG - 2024-11-23 10:36:39 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:36:39 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:36:39 --> Looking for CF User ID: 4
+DEBUG - 2024-11-23 10:36:39 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 4
+    [nama_nilai] => Kemungkinan Besar
+    [cf] => 0.6
+)
+
+DEBUG - 2024-11-23 10:36:39 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Farhan
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Teknik Informatika
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Diri Saya
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah ekonomi keluarga
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 10:36:39 --> Inserted diagnosis with ID: 10
+ERROR - 2024-11-23 10:36:39 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 10:36:39 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 10
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 2
+            [cf_pakar] => 0.8
+            [cf_hasil] => 0.16
+        )
+
+)
+
+ERROR - 2024-11-23 10:36:39 --> mysqli_sql_exception: Unknown column 'cf_pakar' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(874): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(315): CodeIgniter\BaseModel->insertBatch(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-23 10:36:39 --> Unknown column 'cf_pakar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_diagnosa_gejala` (`cf_hasil`, `cf_pakar`, `id_cf_mahasiswa`, `id_diagnosa`, `id_gejala`, `id_penyakit`)
+VALUES (0.16,0.8,2,10,1,1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_diagnosa_gejala` (`cf_hasil`, `cf_pakar`, `id_cf_mahasiswa`, `id_diagnosa`, `id_gejala`, `id_penyakit`)
+VALUES (0.16,0.8,2,10,1,1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_diagnosa_gejala` (`cf_hasil`, `cf_pakar`, `id_cf_mahasiswa`, `id_diagnosa`, `id_gejala`, `id_penyakit`)
+VALUES (0.16,0.8,2,10,1,1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_diagnosa_gejala` (`cf_hasil`, `cf_pakar`, `id_cf_mahasiswa`, `id_diagnosa`, `id_gejala`, `id_penyakit`)
+VALUES (0.16,0.8,2,10,1,1)', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 SYSTEMPATH\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch([...], null, 100)
+ 7 SYSTEMPATH\BaseModel.php(874): CodeIgniter\Model->doInsertBatch([...], null, 100, false)
+ 8 APPPATH\Controllers\MasterDiagnosaController.php(315): CodeIgniter\BaseModel->insertBatch([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 10:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 10:39:03 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 4
+        )
+
+)
+
+DEBUG - 2024-11-23 10:39:03 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:39:03 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:39:03 --> Looking for CF User ID: 4
+DEBUG - 2024-11-23 10:39:03 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 4
+    [nama_nilai] => Kemungkinan Besar
+    [cf] => 0.6
+)
+
+DEBUG - 2024-11-23 10:39:03 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Farhan
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Teknik Informatika
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Diri Saya
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah ekonomi keluarga
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 10:39:03 --> Inserted diagnosis with ID: 11
+DEBUG - 2024-11-23 10:39:03 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.2
+)
+
+ERROR - 2024-11-23 10:39:03 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 10:39:03 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 11
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 2
+            [cf_hasil] => 0.2
+        )
+
+)
+
+INFO - 2024-11-23 10:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 10:45:03 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+            [3] => 4
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 6
+            [2] => 3
+            [3] => 2
+        )
+
+)
+
+DEBUG - 2024-11-23 10:45:03 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:45:03 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:45:03 --> Looking for CF User ID: 6
+DEBUG - 2024-11-23 10:45:03 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 6
+    [nama_nilai] => Sangat Pasti
+    [cf] => 1
+)
+
+DEBUG - 2024-11-23 10:45:03 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 10:45:03 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+DEBUG - 2024-11-23 10:45:03 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:45:03 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:45:03 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 123456788
+    [prodi] => Teknik Industri
+    [semester] => 6
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Tekanan Skripsi dan semacamnya
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 10:45:03 --> Inserted diagnosis with ID: 12
+DEBUG - 2024-11-23 10:45:03 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.2
+)
+
+ERROR - 2024-11-23 10:45:03 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 10:45:03 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 3
+    [id_penyakit] => 1
+    [cf_hasil] => 0.4
+)
+
+ERROR - 2024-11-23 10:45:03 --> Aturan not found for gejala ID: 4
+DEBUG - 2024-11-23 10:45:03 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 12
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 2
+            [cf_hasil] => 0.2
+        )
+
+    [1] => Array
+        (
+            [id_diagnosa] => 12
+            [id_gejala] => 3
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 3
+            [cf_hasil] => 0.4
+        )
+
+)
+
+INFO - 2024-11-23 10:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 10:49:49 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+            [3] => 4
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 6
+            [2] => 3
+            [3] => 2
+        )
+
+)
+
+DEBUG - 2024-11-23 10:49:49 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:49:50 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:49:50 --> Looking for CF User ID: 6
+DEBUG - 2024-11-23 10:49:50 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 6
+    [nama_nilai] => Sangat Pasti
+    [cf] => 1
+)
+
+DEBUG - 2024-11-23 10:49:50 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 10:49:50 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+DEBUG - 2024-11-23 10:49:50 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:49:50 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:49:50 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 123456788
+    [prodi] => Teknik Industri
+    [semester] => 6
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Tekanan Skripsi dan semacamnya
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 10:49:50 --> Inserted diagnosis with ID: 13
+DEBUG - 2024-11-23 10:49:50 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.2
+)
+
+ERROR - 2024-11-23 10:49:50 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 10:49:50 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 3
+    [id_penyakit] => 1
+    [cf_hasil] => 0.4
+)
+
+ERROR - 2024-11-23 10:49:50 --> Aturan not found for gejala ID: 4
+DEBUG - 2024-11-23 10:49:50 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 13
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 2
+            [cf_hasil] => 0.2
+        )
+
+    [1] => Array
+        (
+            [id_diagnosa] => 13
+            [id_gejala] => 3
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 3
+            [cf_hasil] => 0.4
+        )
+
+)
+
+DEBUG - 2024-11-23 10:49:50 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0.52
+        )
+
+    [maxCfHasil] => 0.52
+    [finalCfAkhir] => 0.52
+    [finalPercentage] => 52.00
+    [idPenyakitTerbesar] => 1
+)
+
+INFO - 2024-11-23 10:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 10:54:34 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+            [3] => 4
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 6
+            [2] => 3
+            [3] => 2
+        )
+
+)
+
+DEBUG - 2024-11-23 10:54:34 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:54:34 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:54:34 --> Looking for CF User ID: 6
+DEBUG - 2024-11-23 10:54:34 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 6
+    [nama_nilai] => Sangat Pasti
+    [cf] => 1
+)
+
+DEBUG - 2024-11-23 10:54:34 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 10:54:34 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+DEBUG - 2024-11-23 10:54:34 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:54:34 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:54:34 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 123456788
+    [prodi] => Teknik Industri
+    [semester] => 6
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Tekanan Skripsi dan semacamnya
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 10:54:34 --> Inserted diagnosis with ID: 14
+ERROR - 2024-11-23 10:54:34 --> Error in diagnosis process: Undefined array key "kode_penyakit"
+INFO - 2024-11-23 10:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 10:54:50 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+            [3] => 4
+        )
+
+    [cf] => 
+)
+
+INFO - 2024-11-23 10:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 10:55:31 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 16
+            [1] => 18
+            [2] => 20
+        )
+
+    [cf] => Array
+        (
+            [0] => 4
+            [1] => 6
+            [2] => 2
+        )
+
+)
+
+DEBUG - 2024-11-23 10:55:31 --> Looking for CF User ID: 4
+DEBUG - 2024-11-23 10:55:31 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 4
+    [nama_nilai] => Kemungkinan Besar
+    [cf] => 0.6
+)
+
+DEBUG - 2024-11-23 10:55:31 --> Looking for CF User ID: 6
+DEBUG - 2024-11-23 10:55:31 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 6
+    [nama_nilai] => Sangat Pasti
+    [cf] => 1
+)
+
+DEBUG - 2024-11-23 10:55:31 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:55:31 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:55:31 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 123456788
+    [prodi] => Teknik Industri
+    [semester] => 6
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Tekanan Skripsi dan semacamnya
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 10:55:31 --> Inserted diagnosis with ID: 15
+ERROR - 2024-11-23 10:55:31 --> Aturan not found for gejala ID: 16
+ERROR - 2024-11-23 10:55:31 --> Aturan not found for gejala ID: 18
+ERROR - 2024-11-23 10:55:31 --> Aturan not found for gejala ID: 20
+DEBUG - 2024-11-23 10:55:31 --> Final diagnosaGejala array: Array
+(
+)
+
+DEBUG - 2024-11-23 10:55:31 --> Detail Perhitungan: Array
+(
+)
+
+ERROR - 2024-11-23 10:55:31 --> Error in diagnosis process: No valid diagnosis gejala data to insert
+INFO - 2024-11-23 10:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 10:57:16 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 16
+            [1] => 18
+            [2] => 20
+        )
+
+    [cf] => Array
+        (
+            [0] => 4
+            [1] => 6
+            [2] => 2
+        )
+
+)
+
+DEBUG - 2024-11-23 10:57:16 --> Looking for CF User ID: 4
+DEBUG - 2024-11-23 10:57:16 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 4
+    [nama_nilai] => Kemungkinan Besar
+    [cf] => 0.6
+)
+
+DEBUG - 2024-11-23 10:57:16 --> Looking for CF User ID: 6
+DEBUG - 2024-11-23 10:57:16 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 6
+    [nama_nilai] => Sangat Pasti
+    [cf] => 1
+)
+
+DEBUG - 2024-11-23 10:57:16 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 10:57:16 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 10:57:16 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 123456788
+    [prodi] => Teknik Industri
+    [semester] => 6
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Tekanan Skripsi dan semacamnya
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 10:57:16 --> Inserted diagnosis with ID: 16
+ERROR - 2024-11-23 10:57:16 --> Aturan not found for gejala ID: 16
+ERROR - 2024-11-23 10:57:16 --> Aturan not found for gejala ID: 18
+ERROR - 2024-11-23 10:57:16 --> Aturan not found for gejala ID: 20
+DEBUG - 2024-11-23 10:57:16 --> Final diagnosaGejala array: Array
+(
+)
+
+ERROR - 2024-11-23 10:57:16 --> Error in diagnosis process: No valid diagnosis gejala data to insert
+INFO - 2024-11-23 10:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 10:58:21 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 16
+            [2] => 18
+            [3] => 20
+        )
+
+    [cf] => Array
+        (
+            [0] => 5
+        )
+
+)
+
+DEBUG - 2024-11-23 10:58:21 --> Looking for CF User ID: 5
+DEBUG - 2024-11-23 10:58:21 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 5
+    [nama_nilai] => Pasti
+    [cf] => 0.8
+)
+
+ERROR - 2024-11-23 10:58:21 --> Missing CF value for gejala ID: 16
+INFO - 2024-11-23 10:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 10:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 11:00:52 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 11
+            [1] => 17
+            [2] => 20
+        )
+
+    [cf] => Array
+        (
+            [0] => 4
+            [1] => 3
+            [2] => 2
+        )
+
+)
+
+DEBUG - 2024-11-23 11:00:52 --> Looking for CF User ID: 4
+DEBUG - 2024-11-23 11:00:52 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 4
+    [nama_nilai] => Kemungkinan Besar
+    [cf] => 0.6
+)
+
+DEBUG - 2024-11-23 11:00:52 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 11:00:52 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+DEBUG - 2024-11-23 11:00:52 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 11:00:52 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 11:00:52 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 11:00:52 --> Inserted diagnosis with ID: 17
+ERROR - 2024-11-23 11:00:52 --> Aturan not found for gejala ID: 11
+ERROR - 2024-11-23 11:00:52 --> Aturan not found for gejala ID: 17
+ERROR - 2024-11-23 11:00:52 --> Aturan not found for gejala ID: 20
+DEBUG - 2024-11-23 11:00:52 --> Final diagnosaGejala array: Array
+(
+)
+
+ERROR - 2024-11-23 11:00:52 --> Error in diagnosis process: No valid diagnosis gejala data to insert
+INFO - 2024-11-23 11:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 11:03:01 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 12
+            [1] => 20
+        )
+
+    [cf] => Array
+        (
+            [0] => 3
+            [1] => 3
+        )
+
+)
+
+DEBUG - 2024-11-23 11:03:01 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 11:03:01 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+DEBUG - 2024-11-23 11:03:01 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 11:03:01 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+DEBUG - 2024-11-23 11:03:01 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 11:03:01 --> Inserted diagnosis with ID: 18
+ERROR - 2024-11-23 11:03:01 --> Aturan not found for gejala ID: 12
+ERROR - 2024-11-23 11:03:01 --> Aturan not found for gejala ID: 20
+DEBUG - 2024-11-23 11:03:01 --> Final diagnosaGejala array: Array
+(
+)
+
+ERROR - 2024-11-23 11:03:01 --> Error in diagnosis process: No valid diagnosis gejala data to insert
+INFO - 2024-11-23 11:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 11:05:11 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 12
+            [2] => 20
+        )
+
+    [cf] => Array
+        (
+            [0] => 3
+        )
+
+)
+
+DEBUG - 2024-11-23 11:05:11 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 11:05:11 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+ERROR - 2024-11-23 11:05:11 --> Missing CF value for gejala ID: 12
+INFO - 2024-11-23 11:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 11:05:49 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 3
+            [2] => 6
+            [3] => 12
+            [4] => 20
+        )
+
+    [cf] => Array
+        (
+            [0] => 3
+            [1] => 3
+            [2] => 4
+        )
+
+)
+
+DEBUG - 2024-11-23 11:05:49 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 11:05:49 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+DEBUG - 2024-11-23 11:05:49 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 11:05:49 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+DEBUG - 2024-11-23 11:05:49 --> Looking for CF User ID: 4
+DEBUG - 2024-11-23 11:05:49 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 4
+    [nama_nilai] => Kemungkinan Besar
+    [cf] => 0.6
+)
+
+ERROR - 2024-11-23 11:05:49 --> Missing CF value for gejala ID: 12
+INFO - 2024-11-23 11:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 11:09:25 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+            [3] => 6
+            [4] => 12
+            [5] => 20
+        )
+
+    [cf] => Array
+        (
+            [0] => 4
+            [1] => 3
+        )
+
+)
+
+DEBUG - 2024-11-23 11:09:25 --> Looking for CF User ID: 4
+DEBUG - 2024-11-23 11:09:25 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 4
+    [nama_nilai] => Kemungkinan Besar
+    [cf] => 0.6
+)
+
+DEBUG - 2024-11-23 11:09:25 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 11:09:25 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+ERROR - 2024-11-23 11:09:25 --> Missing CF value for gejala ID: 3
+INFO - 2024-11-23 11:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 11:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 11:10:04 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 6
+        )
+
+)
+
+DEBUG - 2024-11-23 11:10:04 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 11:10:04 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 11:10:04 --> Looking for CF User ID: 6
+DEBUG - 2024-11-23 11:10:04 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 6
+    [nama_nilai] => Sangat Pasti
+    [cf] => 1
+)
+
+DEBUG - 2024-11-23 11:10:04 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 11:10:04 --> Inserted diagnosis with ID: 19
+DEBUG - 2024-11-23 11:10:04 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.2
+)
+
+ERROR - 2024-11-23 11:10:04 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 11:10:04 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 19
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 2
+            [cf_hasil] => 0.2
+        )
+
+)
+
+DEBUG - 2024-11-23 11:10:04 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0.2
+        )
+
+    [maxCfHasil] => 0.2
+    [finalCfAkhir] => 0.2
+    [finalPercentage] => 20.00
+    [idPenyakitTerbesar] => 1
+)
+
+INFO - 2024-11-23 13:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:05:39 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 6
+        )
+
+)
+
+DEBUG - 2024-11-23 13:05:39 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 13:05:39 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 13:05:39 --> Looking for CF User ID: 6
+DEBUG - 2024-11-23 13:05:39 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 6
+    [nama_nilai] => Sangat Pasti
+    [cf] => 1
+)
+
+DEBUG - 2024-11-23 13:05:39 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 13:05:39 --> Inserted diagnosis with ID: 20
+DEBUG - 2024-11-23 13:05:39 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.2
+)
+
+ERROR - 2024-11-23 13:05:39 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 13:05:39 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 20
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 2
+            [cf_hasil] => 0.2
+        )
+
+)
+
+DEBUG - 2024-11-23 13:05:39 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0.2
+        )
+
+    [maxCfHasil] => 0.2
+    [finalCfAkhir] => 0.2
+    [finalPercentage] => 20.00
+    [idPenyakitTerbesar] => 1
+)
+
+ERROR - 2024-11-23 13:05:39 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:06:14 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+        )
+
+    [cf] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 4
+        )
+
+)
+
+DEBUG - 2024-11-23 13:06:14 --> Looking for CF User ID: 1
+DEBUG - 2024-11-23 13:06:14 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 1
+    [nama_nilai] => Tidak Sama Sekali
+    [cf] => 0
+)
+
+DEBUG - 2024-11-23 13:06:14 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 13:06:14 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 13:06:14 --> Looking for CF User ID: 4
+DEBUG - 2024-11-23 13:06:14 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 4
+    [nama_nilai] => Kemungkinan Besar
+    [cf] => 0.6
+)
+
+DEBUG - 2024-11-23 13:06:14 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 13:06:14 --> Inserted diagnosis with ID: 21
+DEBUG - 2024-11-23 13:06:14 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0
+)
+
+ERROR - 2024-11-23 13:06:14 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 13:06:14 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 3
+    [id_penyakit] => 1
+    [cf_hasil] => 0.6
+)
+
+DEBUG - 2024-11-23 13:06:14 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 21
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 1
+            [cf_hasil] => 0
+        )
+
+    [1] => Array
+        (
+            [id_diagnosa] => 21
+            [id_gejala] => 3
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 4
+            [cf_hasil] => 0.6
+        )
+
+)
+
+DEBUG - 2024-11-23 13:06:14 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0.6
+        )
+
+    [maxCfHasil] => 0.6
+    [finalCfAkhir] => 0.6
+    [finalPercentage] => 60.00
+    [idPenyakitTerbesar] => 1
+)
+
+ERROR - 2024-11-23 13:06:14 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:09:13 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [cf] => Array
+        (
+            [0] => 1
+            [1] => 5
+        )
+
+)
+
+DEBUG - 2024-11-23 13:09:13 --> Looking for CF User ID: 1
+DEBUG - 2024-11-23 13:09:13 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 1
+    [nama_nilai] => Tidak Sama Sekali
+    [cf] => 0
+)
+
+DEBUG - 2024-11-23 13:09:13 --> Looking for CF User ID: 5
+DEBUG - 2024-11-23 13:09:13 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 5
+    [nama_nilai] => Pasti
+    [cf] => 0.8
+)
+
+DEBUG - 2024-11-23 13:09:13 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 13:09:13 --> Inserted diagnosis with ID: 22
+DEBUG - 2024-11-23 13:09:13 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0
+)
+
+ERROR - 2024-11-23 13:09:13 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 13:09:13 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 22
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 1
+            [cf_hasil] => 0
+        )
+
+)
+
+DEBUG - 2024-11-23 13:09:13 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0
+        )
+
+    [maxCfHasil] => 0
+    [finalCfAkhir] => 0
+    [finalPercentage] => 0.00
+    [idPenyakitTerbesar] => 0
+)
+
+ERROR - 2024-11-23 13:09:13 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:10:45 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 5
+            [1] => 6
+        )
+
+    [cf] => Array
+        (
+            [0] => 4
+            [1] => 1
+        )
+
+)
+
+DEBUG - 2024-11-23 13:10:45 --> Looking for CF User ID: 4
+DEBUG - 2024-11-23 13:10:45 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 4
+    [nama_nilai] => Kemungkinan Besar
+    [cf] => 0.6
+)
+
+DEBUG - 2024-11-23 13:10:45 --> Looking for CF User ID: 1
+DEBUG - 2024-11-23 13:10:45 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 1
+    [nama_nilai] => Tidak Sama Sekali
+    [cf] => 0
+)
+
+DEBUG - 2024-11-23 13:10:45 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 13:10:45 --> Inserted diagnosis with ID: 23
+DEBUG - 2024-11-23 13:10:45 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 5
+    [id_penyakit] => 1
+    [cf_hasil] => 0.6
+)
+
+ERROR - 2024-11-23 13:10:45 --> Aturan not found for gejala ID: 6
+DEBUG - 2024-11-23 13:10:45 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 23
+            [id_gejala] => 5
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 4
+            [cf_hasil] => 0.6
+        )
+
+)
+
+DEBUG - 2024-11-23 13:10:45 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0.6
+        )
+
+    [maxCfHasil] => 0.6
+    [finalCfAkhir] => 0.6
+    [finalPercentage] => 60.00
+    [idPenyakitTerbesar] => 1
+)
+
+ERROR - 2024-11-23 13:10:45 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:17:28 --> === FORM DATA RECEIVED ===
+DEBUG - 2024-11-23 13:17:28 --> All POST data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [jk] => Laki - Laki
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 5
+        )
+
+)
+
+DEBUG - 2024-11-23 13:17:28 --> selectedGejala: Array
+(
+    [0] => 1
+    [1] => 2
+)
+
+DEBUG - 2024-11-23 13:17:28 --> cf values: Array
+(
+    [0] => 2
+    [1] => 5
+)
+
+DEBUG - 2024-11-23 13:17:28 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 13:17:28 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 13:17:28 --> Looking for CF User ID: 5
+DEBUG - 2024-11-23 13:17:28 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 5
+    [nama_nilai] => Pasti
+    [cf] => 0.8
+)
+
+DEBUG - 2024-11-23 13:17:28 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 13:17:28 --> Inserted diagnosis with ID: 24
+DEBUG - 2024-11-23 13:17:28 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.2
+)
+
+ERROR - 2024-11-23 13:17:28 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 13:17:28 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 24
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 2
+            [cf_hasil] => 0.2
+        )
+
+)
+
+DEBUG - 2024-11-23 13:17:28 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0.2
+        )
+
+    [maxCfHasil] => 0.2
+    [finalCfAkhir] => 0.2
+    [finalPercentage] => 20.00
+    [idPenyakitTerbesar] => 1
+)
+
+ERROR - 2024-11-23 13:17:28 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:18:30 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 3
+        )
+
+)
+
+DEBUG - 2024-11-23 13:18:30 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 13:18:30 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 13:18:30 --> Looking for CF User ID: 3
+DEBUG - 2024-11-23 13:18:30 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 3
+    [nama_nilai] => Mungkin
+    [cf] => 0.4
+)
+
+DEBUG - 2024-11-23 13:18:30 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 13:18:30 --> Inserted diagnosis with ID: 25
+DEBUG - 2024-11-23 13:18:30 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.2
+)
+
+ERROR - 2024-11-23 13:18:30 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 13:18:30 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 25
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 2
+            [cf_hasil] => 0.2
+        )
+
+)
+
+DEBUG - 2024-11-23 13:18:30 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0.2
+        )
+
+    [maxCfHasil] => 0.2
+    [finalCfAkhir] => 0.2
+    [finalPercentage] => 20.00
+    [idPenyakitTerbesar] => 1
+)
+
+ERROR - 2024-11-23 13:18:30 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:19:26 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [cf] => Array
+        (
+            [0] => 5
+            [1] => 2
+        )
+
+)
+
+DEBUG - 2024-11-23 13:19:26 --> Looking for CF User ID: 5
+DEBUG - 2024-11-23 13:19:26 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 5
+    [nama_nilai] => Pasti
+    [cf] => 0.8
+)
+
+DEBUG - 2024-11-23 13:19:26 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 13:19:26 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 13:19:26 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Maulana
+    [jk] => Laki - Laki
+    [nim] => 10109021
+    [prodi] => Peternakan
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Orang Lain
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 13:19:26 --> Inserted diagnosis with ID: 26
+DEBUG - 2024-11-23 13:19:26 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.8
+)
+
+ERROR - 2024-11-23 13:19:26 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 13:19:26 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 26
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 5
+            [cf_hasil] => 0.8
+        )
+
+)
+
+DEBUG - 2024-11-23 13:19:26 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0.8
+        )
+
+    [maxCfHasil] => 0.8
+    [finalCfAkhir] => 0.8
+    [finalPercentage] => 80.00
+    [idPenyakitTerbesar] => 1
+)
+
+ERROR - 2024-11-23 13:19:26 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:21:59 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [cf] => Array
+        (
+            [0] => 2
+            [1] => 2
+        )
+
+)
+
+DEBUG - 2024-11-23 13:21:59 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 13:21:59 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 13:21:59 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 13:21:59 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+DEBUG - 2024-11-23 13:21:59 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Cole
+    [jk] => Laki - Laki
+    [nim] => 123456
+    [prodi] => Teknik Industri
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Diri Saya
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => Tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 13:21:59 --> Inserted diagnosis with ID: 27
+DEBUG - 2024-11-23 13:21:59 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.2
+)
+
+ERROR - 2024-11-23 13:21:59 --> Aturan not found for gejala ID: 2
+DEBUG - 2024-11-23 13:21:59 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 27
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 2
+            [cf_hasil] => 0.2
+        )
+
+)
+
+DEBUG - 2024-11-23 13:21:59 --> CF Calculations: Array
+(
+    [penyakitCfMap] => Array
+        (
+            [1] => 0.2
+        )
+
+    [maxCfHasil] => 0.2
+    [finalCfAkhir] => 0.2
+    [finalPercentage] => 20.00
+    [idPenyakitTerbesar] => 1
+)
+
+ERROR - 2024-11-23 13:21:59 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:28:05 --> Received POST data: Array
+(
+    [selectedGejala] => Array
+        (
+            [0] => 1
+        )
+
+    [cf] => Array
+        (
+            [0] => 3
+        )
+
+)
+
+DEBUG - 2024-11-23 13:28:05 --> Attempting to insert diagnosis with data: Array
+(
+    [nama_mahasiswa] => Cole
+    [jk] => Laki - Laki
+    [nim] => 123456
+    [prodi] => Teknik Industri
+    [semester] => 5
+    [tgl_diagnosa] => 2024-11-23
+    [p_1] => Untuk Diri Saya
+    [p_2] => 21-25 Tahun
+    [p_3] => Ya
+    [p_4] => Masalah pekerjaan
+    [p_5] => Tidak ada
+    [cf_akhir] => 0
+    [presentase] => 0
+)
+
+DEBUG - 2024-11-23 13:28:05 --> Inserted diagnosis with ID: 28
+DEBUG - 2024-11-23 13:28:05 --> Adding diagnosis gejala entry: Array
+(
+    [id_gejala] => 1
+    [id_penyakit] => 1
+    [cf_hasil] => 0.4
+)
+
+DEBUG - 2024-11-23 13:28:05 --> Final diagnosaGejala array: Array
+(
+    [0] => Array
+        (
+            [id_diagnosa] => 28
+            [id_gejala] => 1
+            [id_penyakit] => 1
+            [id_cf_mahasiswa] => 3
+            [cf_hasil] => 0.4
+        )
+
+)
+
+ERROR - 2024-11-23 13:28:05 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 13:28:56 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 13:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 13:29:00 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 13:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 13:29:05 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 178.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 13:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-23 13:34:31 --> Looking for CF User ID: 6
+DEBUG - 2024-11-23 13:34:31 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 6
+    [nama_nilai] => Sangat Pasti
+    [cf] => 1
+)
+
+DEBUG - 2024-11-23 13:34:31 --> Looking for CF User ID: 2
+DEBUG - 2024-11-23 13:34:31 --> Found CF data: Array
+(
+    [id_cf_mahasiswa] => 2
+    [nama_nilai] => Tidak Yakin
+    [cf] => 0.2
+)
+
+ERROR - 2024-11-23 13:34:31 --> Error in diagnosis process: Undefined array key "cf_user"
+INFO - 2024-11-23 13:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 13:37:13 --> Undefined array key "cf_user"
+in APPPATH\Views\diagnosis\hasil_diagnosa.php on line 260.
+ 1 APPPATH\Views\diagnosis\hasil_diagnosa.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cf_user"', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views\\diagnosis\\hasil_diagnosa.php', 260)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views\\diagnosis\\hasil_diagnosa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('diagnosis/hasil_diagnosa', [], true)
+ 5 APPPATH\Controllers\MasterDiagnosaController.php(272): view('diagnosis/hasil_diagnosa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 13:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 13:40:19 --> Undefined array key "cf_user"
+in APPPATH\Views\diagnosis\hasil_diagnosa.php on line 260.
+ 1 APPPATH\Views\diagnosis\hasil_diagnosa.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cf_user"', 'C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views\\diagnosis\\hasil_diagnosa.php', 260)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp-project-pkl\\htdocs\\Sistem-Pakar-Tingkat-Depresi\\app\\Views\\diagnosis\\hasil_diagnosa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('diagnosis/hasil_diagnosa', [], true)
+ 5 APPPATH\Controllers\MasterDiagnosaController.php(272): view('diagnosa/hasil_diagnosa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 13:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 13:42:13 --> mysqli_sql_exception: Unknown column 'tbl_diagnosa_gejala' in 'field list' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_dia...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dia...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dia...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dia...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\MasterDiagnosaController.php(296): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->cetakDiagnosa()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 13:42:13 --> Unknown column 'tbl_diagnosa_gejala' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_diagnosa_gejala`, `tbl_gejala`.`kode_gejala`, `tbl_gejala`.`nama_gejala`, `tbl_cf_user`.`nama_nilai`, `tbl_cf_user`.`cf`, `tbl_penyakit`.`kode_penyakit`, `tbl_penyakit`.`nama_penyakit`
+FROM `tbl_diagnosa_gejala`
+LEFT JOIN `tbl_gejala` ON `tbl_gejala`.`id_gejala` = `tbl_diagnosa_gejala`.`id_gejala`
+LEFT JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosa_gejala`.`id_penyakit`
+LEFT JOIN `tbl_cf_user` ON `tbl_cf_user`.`id_cf_mahasiswa` = `tbl_diagnosa_gejala`.`id_cf_mahasiswa`
+LEFT JOIN `tbl_diagnosa` ON `tbl_diagnosa`.`id_diagnosa` = `tbl_diagnosa_gejala`.`id_diagnosa`
+WHERE `tbl_diagnosa`.`id_diagnosa` = \'32\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_diagnosa_gejala`, `tbl_gejala`.`kode_gejala`, `tbl_gejala`.`nama_gejala`, `tbl_cf_user`.`nama_nilai`, `tbl_cf_user`.`cf`, `tbl_penyakit`.`kode_penyakit`, `tbl_penyakit`.`nama_penyakit`
+FROM `tbl_diagnosa_gejala`
+LEFT JOIN `tbl_gejala` ON `tbl_gejala`.`id_gejala` = `tbl_diagnosa_gejala`.`id_gejala`
+LEFT JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosa_gejala`.`id_penyakit`
+LEFT JOIN `tbl_cf_user` ON `tbl_cf_user`.`id_cf_mahasiswa` = `tbl_diagnosa_gejala`.`id_cf_mahasiswa`
+LEFT JOIN `tbl_diagnosa` ON `tbl_diagnosa`.`id_diagnosa` = `tbl_diagnosa_gejala`.`id_diagnosa`
+WHERE `tbl_diagnosa`.`id_diagnosa` = \'32\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_diagnosa_gejala`, `tbl_gejala`.`kode_gejala`, `tbl_gejala`.`nama_gejala`, `tbl_cf_user`.`nama_nilai`, `tbl_cf_user`.`cf`, `tbl_penyakit`.`kode_penyakit`, `tbl_penyakit`.`nama_penyakit`
+FROM `tbl_diagnosa_gejala`
+LEFT JOIN `tbl_gejala` ON `tbl_gejala`.`id_gejala` = `tbl_diagnosa_gejala`.`id_gejala`
+LEFT JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosa_gejala`.`id_penyakit`
+LEFT JOIN `tbl_cf_user` ON `tbl_cf_user`.`id_cf_mahasiswa` = `tbl_diagnosa_gejala`.`id_cf_mahasiswa`
+LEFT JOIN `tbl_diagnosa` ON `tbl_diagnosa`.`id_diagnosa` = `tbl_diagnosa_gejala`.`id_diagnosa`
+WHERE `tbl_diagnosa`.`id_diagnosa` = \'32\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_diagnosa_gejala`, `tbl_gejala`.`kode_gejala`, `tbl_gejala`.`nama_gejala`, `tbl_cf_user`.`nama_nilai`, `tbl_cf_user`.`cf`, `tbl_penyakit`.`kode_penyakit`, `tbl_penyakit`.`nama_penyakit`
+FROM `tbl_diagnosa_gejala`
+LEFT JOIN `tbl_gejala` ON `tbl_gejala`.`id_gejala` = `tbl_diagnosa_gejala`.`id_gejala`
+LEFT JOIN `tbl_penyakit` ON `tbl_penyakit`.`id_penyakit` = `tbl_diagnosa_gejala`.`id_penyakit`
+LEFT JOIN `tbl_cf_user` ON `tbl_cf_user`.`id_cf_mahasiswa` = `tbl_diagnosa_gejala`.`id_cf_mahasiswa`
+LEFT JOIN `tbl_diagnosa` ON `tbl_diagnosa`.`id_diagnosa` = `tbl_diagnosa_gejala`.`id_diagnosa`
+WHERE `tbl_diagnosa`.`id_diagnosa` = :tbl_diagnosa.id_diagnosa:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MasterDiagnosaController.php(296): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->cetakDiagnosa()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 13:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 13:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 15:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 22:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 22:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 22:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 22:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 22:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 22:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 23:14:15 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'sispasi_improve' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sispasi_improve', 3306, '', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\Home.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'sispasi_improve' in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\Home.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-23 23:14:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'sispasi_improve'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_faq`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 23:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 23:45:48 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`sispasi_improve`.`tbl_diagnosa`, CONSTRAINT `tbl_diagnosa_id_user_foreign` FOREIGN KEY (`id_user`) REFERENCES `sispasi_improve`.`tbl_users` (`id_user`)) in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('TRUNCATE `tbl_u...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `tbl_u...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `tbl_u...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2721): CodeIgniter\Database\BaseConnection->query('TRUNCATE `tbl_u...', NULL, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Database\Seeds\UserSeeder.php(37): CodeIgniter\Database\BaseBuilder->truncate()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2024-11-23 23:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 23:49:13 --> mysqli_sql_exception: Table 'sispasi_improve.tbl_mahasiswa' doesn't exist in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\DashboardController.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 23:49:13 --> Table 'sispasi_improve.tbl_mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_mahasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_mahasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_mahasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_mahasiswa`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DashboardController.php(39): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 23:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 23:51:10 --> mysqli_sql_exception: Table 'sispasi_improve.tbl_mahasiswa' doesn't exist in C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\app\Controllers\DashboardController.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+#8 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#9 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-project-pkl\htdocs\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-23 23:51:10 --> Table 'sispasi_improve.tbl_mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_mahasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_mahasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_mahasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_mahasiswa`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DashboardController.php(39): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 23:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 23:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
