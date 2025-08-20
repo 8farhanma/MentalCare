@@ -234,3 +234,20 @@ Jika anda ingin mengaktifkan *Send Email OTP - Kritik dan Saran Email - Token Lu
         $mail->setFrom('MASUKKAN EMAIL ANDA DISINI', 'MentalCare');
         $mail->addAddress($email);
 ```
+
+---
+
+## Hak Cipta (Copyright)
+
+ 2025 Farhan Maulana. Seluruh hak cipta dilindungi.
+
+Aplikasi MentalCare dan kode sumbernya dilisensikan di bawah [MIT License](LICENSE).
+
+**Dibuat dengan ❤️ oleh Farhan Maulana**  
+8farhanmaulana@gmail.com  
+https://github.com/8farhanma
+
+### Penggunaan dan Distribusi
+- Dilarang keras untuk mengklaim aplikasi ini sebagai milik Anda sendiri
+- Diperbolehkan untuk digunakan sebagai referensi belajar dengan mencantumkan sumber
+- Untuk penggunaan komersial, silakan hubungi pemilik hak cipta terlebih dahulu
